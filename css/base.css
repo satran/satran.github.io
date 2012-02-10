@@ -1,0 +1,483 @@
+ /* RESET */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;
+    }
+    body { line-height: 1; }
+    ol, ul { list-style: none; }
+    blockquote, q { quotes: none; }
+    blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+    :focus { outline: 0; }
+    del { text-decoration: line-through; }
+    table { border-collapse: collapse; border-spacing: 0; }
+
+    /* GLOBAL ELEMENTS */
+    /*body { background: #d0d0d0; }*/
+    /*body, input, textarea { color: #000; font: 16px/1.6 "helvetica neue",helvetica,arial,sans-serif; }*/
+    body, input, textarea { color: #000; font: 17px/1.6 Palatino, Georgia,'Times New Roman',serif; }
+    p, ul, ol, dd, pre { margin-bottom: 20px; }
+    pre, code { font: 12px Monaco,monospace; line-height: 1.6; }
+    blockquote { border-left: 5px solid #ddd; color: #555; font-style: italic; margin: 0 0 20px; padding: 0 0 0 10px; }
+    table { border: 1px solid #ccc; border-width: 1px 1px 0 1px; font-size: 14px; line-height: 1.6; margin: 0 0 20px 0; text-align: left; }
+    caption { text-align: left; }
+    tr { border-bottom: 1px solid #ccc; }
+    th, td { padding: .7em 1.25em; }
+    hr { background-color: #ccc; border: 0; color: #555; height: 1px; margin-bottom: 20px; }
+    a:link, a:visited { color: #a83303; text-decoration: none; }
+    a:focus, a:hover { text-decoration: underline; }
+    a:active { position: relative; top: 1px; }
+    h1, h2, h3, h4, h5, h6 {  font-weight:normal; clear:both; }
+    img { border: 1px solid #ccc; }
+    a img:focus, a img:hover, a img:active { border-color: #a83303; }
+
+    /* STRUCTURE */
+    #wrapper {
+        background: #ffffff;
+        border: 10px solid #ffffff;
+        margin: 20px auto;
+        padding: 10px;
+        width: 80%;/*
+        -webkit-box-shadow: 0px 0px 7px rgba(50, 50, 50, 1);
+        -moz-box-shadow:    0px 0px 7px rgba(50, 50, 50, 1);
+        box-shadow:         0px 0px 7px rgba(50, 50, 50, 1);*/
+    }
+        #header {
+        }
+        #main {
+        }
+            #container {
+            }
+            .sidebar {
+            }
+        #footer {
+            text-align: center;
+            border-top: 1px solid #ccc;
+            color: #555;
+            font-size: 12px;
+            padding: 20px 0;
+        }
+
+    /* DEFAULT CSS */
+    #branding {
+        padding: 40px 0;
+        /*text-align: center;*/
+        text-align: left;
+    }
+        #branding h1 a {
+            color: #000;
+            /*font: 50px/1 Georgia, serif;*/
+            font: 24px Georgia, serif;
+            font-weight: normal;
+            text-decoration: none;
+        }
+        #branding h1 a:focus, #header h1 a:hover, #header h1 a:active {
+            color: #a83303;
+        }
+        #branding img {
+            max-width: 600px;
+        }
+    #access {
+        /*border-bottom: 1px solid #ccc;*/
+        font-size: 12px;
+        overflow: hidden;
+        padding: 10px;
+        margin-bottom: 20px;
+        /*-moz-box-shadow: 0 0 5px #888;
+        -webkit-box-shadow: 0 0 5px #888;
+        box-shadow: 0 0 5px #888;
+        background: #AA0114;*/
+    }
+        #pages ul {
+            float: left;
+            margin-bottom: 0;
+        }
+            #pages li {
+                float: left;
+                margin-right: 10px;
+                padding: 3px 0;
+            }
+                #pages li.rss {
+                    margin-right: 0;
+                }
+                    #pages a, #header #pages a:visited {
+                        text-transform: uppercase;
+                    }
+        #search {
+            display: block;
+            float: right;
+            width: 205px;
+        }
+            #search input {
+                background: none;
+                border: 1px solid #ccc;
+                display: block;
+                font-size: 12px;
+            }
+            #search input.search-text {
+                float: left;
+                height: 15px;
+                padding: 4px;
+                width: 130px;
+            }
+            #search input.search-submit {
+                float: right;
+                height: 25px;
+                padding: 3px;
+                width: 60px;
+            }
+    .post {
+        border-top: 1px solid #ccc;
+        padding: 20px;
+        position: relative;
+    }
+        .post-type a {
+            height: 48px; width: 48px;
+            position: absolute; left: 0; top: 20px;
+            text-indent: -9999px;
+        }
+        .post-type-text .post-type a {
+            background: url("http://static.tumblr.com/euguvyd/ntXl4578z/lightweight-icons.png") no-repeat 0 0;
+        }
+        .post-type-photo .post-type a {
+            background: url("http://static.tumblr.com/euguvyd/ntXl4578z/lightweight-icons.png") no-repeat 0 -48px;
+        }
+        .post-type-photoset .post-type a {
+            background: url("http://static.tumblr.com/euguvyd/ntXl4578z/lightweight-icons.png") no-repeat 0 -48px;
+        }
+        .post-type-quote .post-type a {
+            background: url("http://static.tumblr.com/euguvyd/ntXl4578z/lightweight-icons.png") no-repeat 0 -96px;
+        }
+        .post-type-link .post-type a {
+            background: url("http://static.tumblr.com/euguvyd/ntXl4578z/lightweight-icons.png") no-repeat 0 -144px;
+        }
+        .post-type-chat .post-type a {
+            background: url("http://static.tumblr.com/euguvyd/ntXl4578z/lightweight-icons.png") no-repeat 0 -192px;
+        }
+        .post-type-audio .post-type a {
+            background: url("http://static.tumblr.com/euguvyd/ntXl4578z/lightweight-icons.png") no-repeat 0 -240px;
+        }
+        .post-type-video .post-type a {
+            background: url("http://static.tumblr.com/euguvyd/ntXl4578z/lightweight-icons.png") no-repeat 0 -288px;
+        }
+        .post-type a:focus, .post-type a:hover {
+            -webkit-transform: rotate(15deg);
+            -moz-transform: rotate(15deg);
+        }
+        .post-type a:active {
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+        }
+        .post-content h3 {
+            font: 30px/1.6 Palatino,Georgia,serif;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .post-content img {
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .post-type-text .post-content ul {
+            padding-left: 30px;
+        }
+            .post-type-text .post-content ul ul {
+                margin-bottom: 0;
+            }
+            .post-type-text .post-content ul li {
+                list-style-type: disc;
+            }
+                .post-type-text .post-content ul ul li {
+                    list-style-type: circle;
+                }
+        .post-type-text .post-content ol {
+            padding-left: 30px;
+        }
+            .post-type-text .post-content ol ol {
+                margin-bottom: 0;
+            }
+            .post-type-text .post-content ol li {
+                list-style-type: upper-latin;
+            }
+                .post-type-text .post-content ol ol li {
+                    list-style-type: lower-latin;
+                }
+        .post-type-photoset .post-content .html_photoset, .post-type-video .post-content .video-wrap {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .post-type-link .post-content .link-wrap {
+            margin-bottom: 20px;
+        }
+        .post-type-chat .post-content .label {
+            color: #333;
+            font-weight: bold;
+        }
+        .post-type-audio .post-content .caption {
+            margin-top: 20px;
+        }
+            .tags {
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+                .tags a {
+                    border: 1px solid #ccc;
+                    border-radius: 30px; -webkit-border-radius:30px; -moz-border-radius: 30px;
+                    color: #555;
+                    margin-right: 1px;
+                    padding: 2px 10px;
+                }
+                .tags a:focus, .tags a:hover {
+                    border-color: #a83303;
+                    color: #a83303;
+                    text-decoration: none;
+                }
+        .post-meta {
+            font-size: 12px;
+            overflow: hidden;
+        }
+            .post-meta .date, .post-meta .comments, .post-meta .note-count {
+                float: left;
+            }
+                .post-meta a {
+                    color: #555;
+                    margin-right: 20px;
+                    padding: 1px 0 1px 20px;
+                }
+                .post-meta .date a {
+                    background: url("http://static.tumblr.com/euguvyd/pJkl457a4/lightweight-small-icons.png") no-repeat 0 0;
+                }
+                .post-meta .comments a {
+                    background: url("http://static.tumblr.com/euguvyd/pJkl457a4/lightweight-small-icons.png") no-repeat 0 -16px;
+                }
+                .post-meta .note-count a {
+                    background: url("http://static.tumblr.com/euguvyd/pJkl457a4/lightweight-small-icons.png") no-repeat 0 -32px;
+                }
+        .share-this-post {
+            margin-top: 10px;
+        }
+    .post-footer {
+        border-top: 1px solid #ccc;
+        font-size: 12px;
+        overflow: hidden;
+        padding: 10px 0;
+        text-transform: uppercase;
+    }
+        .post-footer .author {
+            float: left;
+        }
+        .post-footer .shorturl {
+            float: right;
+        }
+    #disqus_thread {
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+    }
+        #dsq-content {
+            font-size: 14px !important;
+            line-height: 1.6 !important;
+        }
+        #disqus_thread h3 {
+            font: 18px/1.6 Georgia,serif;
+            margin: 20px 0 10px;
+        }
+            #dsq-content .dsq-request-user-info img {
+                margin-top: 10px;
+            }
+            #dsq-content .dsq-options {
+                background: none !important;
+                border-bottom: 1px dotted #ccc;
+            }
+            #dsq-content .dsq-thread-settings {
+                border: 1px solid #ccc !important;
+            }
+            #dsq-content .dsq-comment-message {
+                line-height: 1.6 !important;
+            }
+            #dsq-content .dsq-pagination {
+                background: none !important;
+                border-top: 1px dotted #ccc;
+            }
+    #post-notes {
+        border-top: 1px solid #ccc;
+        font-size: 14px;
+        line-height: 1.6;
+        padding: 10px 0 0;
+    }
+        #post-notes ol li {
+            border-bottom: 1px dotted #ccc;
+            padding: 10px 0;
+        }
+            #post-notes ol li img {
+                border: none;
+                margin-right: 4px;
+                vertical-align: middle;
+            }
+            #post-notes ol li blockquote {
+                margin: 10px 0 0;
+            }
+    .widget {
+        border-top: 1px solid #ccc;
+        color: #555;
+        font-size: 12px;
+        padding: 20px 0;
+    }
+        .widget h3 {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+        }
+        .widget ul {
+            margin-bottom: 0;
+        }
+            #about {
+                overflow: hidden;
+            }
+            #about img {
+                float: left;
+                margin: 5px 10px 5px 0;
+            }
+            #about p {
+                margin-bottom: 0;
+            }
+            #stuff-i-like {
+                overflow: hidden;
+                width: 600px !important;
+            }
+                #stuff-i-like ul {
+                        overflow: hidden;
+                }
+                    #stuff-i-like li.like_post {
+                        float: left;
+                        margin-right: 30px;
+                        width: 180px;
+                    }
+                        #stuff-i-like .like_post img {
+                           max-width: 178px;
+                        }
+                #stuff-i-like .carousel-navigation {
+                    margin-top: 10px;
+                    overflow: hidden;
+                }
+                    #stuff-i-like .carousel-navigation button {
+                        background: none;
+                        border: 1px solid #ccc;
+                        color: #555;
+                        display: block;
+                        height: 30px;
+                        padding: 3px;
+                        width: 40px;
+                    }
+                    #stuff-i-like .carousel-navigation button:hover {
+                        border: 1px solid #a83303;
+                        color: #a83303;
+                    }
+                        #stuff-i-like .carousel-navigation .prev {
+                            float: left;
+                        }
+                        #stuff-i-like .carousel-navigation .next {
+                            float: right;
+                        }
+            #latest-tweets {
+text-align: center;
+                padding: 30px 0 20px;
+            }
+                #latest-tweets ul li {
+                    margin-bottom: 10px;
+                }
+            #people-i-follow {
+                overflow: hidden;
+            }
+                #people-i-follow li {
+                    display: inline;
+                    padding: 0;
+                    margin: 0;
+                }
+    .pagination {
+        border-top: 1px solid #ccc;
+        color: #555;
+        font-size: 12px;
+        overflow: hidden;
+        padding: 10px 0;
+        text-transform: uppercase;
+    }
+        .pagination .archive, .pagination .random {
+            float: left;
+            margin-right: 20px;
+        }
+        .pagination .previous-page, .pagination .page-number, .pagination .next-page {
+            float: right;
+            margin-left: 20px;
+        }
+            .pagination a {
+                color: #555;
+            }
+            .pagination .previous-page a {
+                background: url("http://static.tumblr.com/euguvyd/pJkl457a4/lightweight-small-icons.png") no-repeat left -48px;
+                padding: 1px 0 1px 20px;
+            }
+            .pagination .next-page a {
+                background: url("http://static.tumblr.com/euguvyd/pJkl457a4/lightweight-small-icons.png") no-repeat right -64px;
+                padding: 1px 20px 1px 0;
+            }
+            
+            
+            blockquote {
+                padding: 13px 13px 21px 15px;
+                margin-bottom: 18px;
+                font-family:georgia,serif;
+                font-style: italic;
+            }
+            blockquote:before {
+                content:"\201C";
+                font-size:40px;
+                margin-left:-10px;
+                font-family:georgia,serif;
+                color:#eee;
+            }
+            blockquote p {
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 18px;
+                margin-bottom: 0;
+                font-style: italic;
+            }
+            code, pre {
+                padding: 0 3px 2px;
+                font-family: Monaco, Andale Mono, Courier New, monospace;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                border-radius: 3px;
+            }
+            code {
+                background-color: #fee9cc;
+                color: rgba(0, 0, 0, 0.75);
+                padding: 1px 3px;
+                font-size: 14px;
+            }
+            pre {
+                display: block;
+                padding: 14px;
+                margin: 0 0 18px;
+                line-height: 16px;
+                font-size: 14px;
+                border: 1px dashed #ccc;
+                border: 1px dashed rgba(0, 0, 0, 0.15);
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                border-radius: 3px;
+                white-space: pre;
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+            pre code {
+                background-color: #fdfdfd;
+                color:#737373;
+                font-size: 14px;
+            }

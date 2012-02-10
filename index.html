@@ -2,11 +2,56 @@
 layout: default
 title: Satyajit Ranjeev
 ---
-        <h1>Satyajit Ranjeev</h1>
-        <div id="home">
-          <h1>Blog Posts</h1>
-          <ul class="posts">
-            {% for post in site.posts %}
-              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-          </ul>
+<div id="container">
+    <div id="content">
+
+    {% for post in site.posts %}
+        <div id="post-{{ post.id }}" class="">
+
+            <div class="post-content">
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <div>
+                    {{ post.content }}
+                </div>
+            </div><!-- post-content -->
+
+            <div class="post-meta">
+                <div class="date">
+                    {{ post.date }}
+                </div><!-- .date -->
+
+            </div><!-- .post-meta -->
+            <div class="share-this-post">
+                <div class="facebook-button"><fb:like layout="standard" show_faces="false" width="450" action="like" colorscheme="light"></fb:like></div>
+                <div class="tweetmeme-button"><script type="text/javascript">tweetmeme_style = 'compact';</script><script type="text/javascript" src="http://tweetmeme.com/i/scripts/button.js"></script></div>
+            </div>
+        </div><!-- .post -->
+    {% endfor %}
+
+
+    </div><!-- #content -->
+
+</div><!-- #container -->
+
+
+<div class="sidebar">
+
+    <div id="latest-tweets" class="widget">
+        <h3>Latest Tweets <a href="http://twitter.com/satyajitranjeev">(follow)</a></h3>
+        <ul id="tweets"></ul>
+    </div>
+
+    <script type="text/javascript">
+        function recent_tweets(data) {
+            for (i=0; i<data.length; i++) {
+                if (i<{text:Number of Tweets}) {
+                    document.getElementById("tweets").innerHTML = 
+                        document.getElementById("tweets").innerHTML + 
+                        '<li class="tweet">' + data[i].text + '</li>';
+                }
+            }
+            document.getElementById("twitter").style.display = 'block';
+        }
+    </script>
+
+</div><!-- .sidebar -->
