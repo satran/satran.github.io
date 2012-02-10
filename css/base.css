@@ -30,7 +30,8 @@
     tr { border-bottom: 1px solid #ccc; }
     th, td { padding: .7em 1.25em; }
     hr { background-color: #ccc; border: 0; color: #555; height: 1px; margin-bottom: 20px; }
-    a:link, a:visited { color: #a83303; text-decoration: none; }
+    /* a:link, a:visited { color: #a83303; text-decoration: none; } */
+    a:link, a:visited { color: #A8334A; text-decoration: none; }
     a:focus, a:hover { text-decoration: underline; }
     a:active { position: relative; top: 1px; }
     h1, h2, h3, h4, h5, h6 {  font-weight:normal; clear:both; }
