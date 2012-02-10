@@ -356,7 +356,7 @@ text-align: center;
             blockquote {
                 padding: 0 13px 21px 15px;
                 margin-bottom: 18px;
-                font-style: italic;
+                color: #555555;
             }
             blockquote:before {
                 content:"\201C";
@@ -366,7 +366,6 @@ text-align: center;
                 color:#eee;
             }
             blockquote p {
-                font-size: 14px;
                 font-weight: 300;
                 line-height: 18px;
                 margin-bottom: 0;
