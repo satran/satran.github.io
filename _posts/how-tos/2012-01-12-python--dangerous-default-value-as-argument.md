@@ -1,5 +1,5 @@
 ---
-layout
+layout: post
 ---
 Pylint in my vim constantly showed this error:
 
