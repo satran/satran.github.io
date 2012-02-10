@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Python - Dangerous default value as argument
 ---
 Pylint in my vim constantly showed this error:
 
