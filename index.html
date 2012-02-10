@@ -11,13 +11,13 @@ title: Satyajit Ranjeev
             <div class="post-content">
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 <div>
-                    {{ post.content }}
+                    {{ post.content | number_of_words }} => 100
                 </div>
             </div><!-- post-content -->
 
             <div class="post-meta">
                 <div class="date">
-                    {{ post.date }}
+                    {{ post.date | date_to_long_string }}
                 </div><!-- .date -->
 
             </div><!-- .post-meta -->
@@ -32,26 +32,3 @@ title: Satyajit Ranjeev
     </div><!-- #content -->
 
 </div><!-- #container -->
-
-
-<div class="sidebar">
-
-    <div id="latest-tweets" class="widget">
-        <h3>Latest Tweets <a href="http://twitter.com/satyajitranjeev">(follow)</a></h3>
-        <ul id="tweets"></ul>
-    </div>
-
-    <script type="text/javascript">
-        function recent_tweets(data) {
-            for (i=0; i<data.length; i++) {
-                if (i<{text:Number of Tweets}) {
-                    document.getElementById("tweets").innerHTML = 
-                        document.getElementById("tweets").innerHTML + 
-                        '<li class="tweet">' + data[i].text + '</li>';
-                }
-            }
-            document.getElementById("twitter").style.display = 'block';
-        }
-    </script>
-
-</div><!-- .sidebar -->
