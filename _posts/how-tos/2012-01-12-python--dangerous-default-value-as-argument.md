@@ -2,6 +2,8 @@
 layout: post
 title: Python - Dangerous default value as argument
 ---
+# {{ page.title }}
+
 Pylint in my vim constantly showed this error:
 
      warning| Dangerous default value [] as argument

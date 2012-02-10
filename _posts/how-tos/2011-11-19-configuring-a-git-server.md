@@ -2,6 +2,8 @@
 layout: post
 title: Configuring a Git Server
 ---
+# {{ page.title }}
+
 There are many ways to set up a Git server. In this article I am going to show you how you can do it using the SSH protocol. First I am assuming you have a UNIX or GNU/Linux machine with you. I am not very sure if this works well on windows, I am assuming it would. 
 
 ####**Installing basic packages on the server**
