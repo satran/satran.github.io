@@ -24,7 +24,7 @@
     body, input, textarea { color: #000; font: 17px/1.6 Palatino, Georgia,'Times New Roman',serif; }
     p, ul, ol, dd, pre { margin-bottom: 20px; }
     pre, code { font: 12px Monaco,monospace; line-height: 1.6; }
-    blockquote { border-left: 5px solid #ddd; color: #555; font-style: italic; margin: 0 0 20px; padding: 0 0 0 10px; }
+    /*blockquote { border-left: 5px solid #ddd; color: #555; font-style: italic; margin: 0 0 20px; padding: 0 0 0 10px; }*/
     table { border: 1px solid #ccc; border-width: 1px 1px 0 1px; font-size: 14px; line-height: 1.6; margin: 0 0 20px 0; text-align: left; }
     caption { text-align: left; }
     tr { border-bottom: 1px solid #ccc; }
@@ -354,9 +354,8 @@ text-align: center;
             
             
             blockquote {
-                padding: 13px 13px 21px 15px;
+                padding: 0 13px 21px 15px;
                 margin-bottom: 18px;
-                font-family:georgia,serif;
                 font-style: italic;
             }
             blockquote:before {
