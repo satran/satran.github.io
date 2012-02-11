@@ -1,35 +1,37 @@
 ---
-layout: default
+layout: home
 title: Satyajit Ranjeev
 ---
-<div id="container">
-    <div id="content">
+<div id="home_page">
 
-    {% for post in site.posts %}
-        <div id="post-{{ post.id }}" class="">
-
-            <div class="post-content">
-                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                <div>
-                    {{ post.content | truncatewords: 100 }}
-                </div>
-            </div><!-- post-content -->
-            <p><a href="{{ post.url }}">Read more ...</a></p>
-
-            <div class="post-meta">
-                <div class="date">
-                    {{ post.date | date_to_long_string }}
-                </div><!-- .date -->
-
-            </div><!-- .post-meta -->
-            <div class="share-this-post">
-                <div class="facebook-button"><fb:like layout="standard" show_faces="false" width="450" action="like" colorscheme="light"></fb:like></div>
-                <div class="tweetmeme-button"><script type="text/javascript">tweetmeme_style = 'compact';</script><script type="text/javascript" src="http://tweetmeme.com/i/scripts/button.js"></script></div>
-            </div>
-        </div><!-- .post -->
-    {% endfor %}
-
-
-    </div><!-- #content -->
+    <p>Hi, I am </p>
+    <h1 class="title">Satyajit Ranjeev</h1>
+    <div class="container">
+        <div class="column">
+            <h3><a href="/articles/">Latest Posts</a></h3>        
+            <ul>
+                {% for post in site.posts limit:3 %}
+                <li><a href="{{ post.url }}">{{ post.date | date_to_string }}</a> - {{ post.title }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="column">
+            <h3><a href="/projects/">Projects</a></h3>        
+            <ul>
+                <li><a href="">Mootailla</a> - A bug reporting system in Django.</li>
+                <li><a href="">Refugee</a> - A Refugee tracking system for NGO's and Churches.</li>
+                <li><a href="">Eve</a> - A School Management System.</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3><a href="">Pages</a></h3>        
+            <ul>
+                <li><a href="/about/">About</a> - About me, including my tools and how this blog runs..</li>
+                <li><a href="/contact/">Contact</a> - Got a question? Pop me a mail or catch me on your favourite social network.</li>
+                <li><a href="">Resume</a> - What I have been doing these years.</li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
 
 </div><!-- #container -->
