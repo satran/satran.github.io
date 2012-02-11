@@ -225,6 +225,9 @@ hr.center{
     padding: 10px;
     margin: 10px auto;
 }
+#home_page .column li{
+    list-style: none;
+}
 .clear{
     clear: both;
 }
