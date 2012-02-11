@@ -8,13 +8,10 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;
+margin: 0; padding: 0; border: 0; outline: 0;  vertical-align: baseline; background: transparent;
 }
-body { line-height: 1; }
 ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
-blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
-:focus { outline: 0; }
 del { text-decoration: line-through; }
 table { border-collapse: collapse; border-spacing: 0; }
 
@@ -32,15 +29,14 @@ hr { background-color: #ccc; border: 0; color: #555; height: 1px; margin-bottom:
 a:link, a:visited { color: #A8334A; text-decoration: none; }
 a:focus, a:hover { text-decoration: underline; }
 a:active { position: relative; top: 1px; }
-h1, h2, h3, h4, h5, h6 {  font-weight:normal; clear:both; }
+/* h1, h2, h3, h4, h5, h6 {  font-weight:normal; clear:both; } */
 img { border: 1px solid #ccc; }
 a img:focus, a img:hover, a img:active { border-color: #a83303; }
 
 #wrapper {
 background: #ffffff;
 margin: 20px auto;
-padding: 10px;
-width: 80%;
+padding: 5%;
 }
 #footer {
 text-align: center;
@@ -62,16 +58,13 @@ margin-bottom: 20px;
     padding-right: 10px;
     display: inline;
 }
-#post h1{
+#post h1, .post h1{
 text-align: center; 
+margin-bottom: 20px;
+color: #A8334A;
 }
 .post {
     margin-bottom: 30px;
-}
-.post-content h3, #post h1 {
-font: 30px/1.6 Palatino,Georgia,serif;
-margin-bottom: 20px;
-text-align: center;
 }
 .post-content img {
 margin-bottom: 20px;
