@@ -10,7 +10,6 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 margin: 0; padding: 0; border: 0; outline: 0;  vertical-align: baseline; background: transparent;
 }
-ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
 del { text-decoration: line-through; }
 table { border-collapse: collapse; border-spacing: 0; }
@@ -32,11 +31,12 @@ a:active { position: relative; top: 1px; }
 /* h1, h2, h3, h4, h5, h6 {  font-weight:normal; clear:both; } */
 img { border: 1px solid #ccc; }
 a img:focus, a img:hover, a img:active { border-color: #a83303; }
+h1, h2{ font-weight: normal;}
 
 #wrapper {
 background: #ffffff;
 margin: 20px auto;
-padding: 5%;
+padding: 0 5%;
 }
 #footer {
 text-align: center;
@@ -57,14 +57,17 @@ margin-bottom: 20px;
 #access li{
     padding-right: 10px;
     display: inline;
+    list-style: none;
 }
 #post h1, .post h1{
 text-align: center; 
 margin-bottom: 20px;
-color: #A8334A;
 }
 .post {
     margin-bottom: 30px;
+}
+.posts li{
+    list-style: none;
 }
 .post-content img {
 margin-bottom: 20px;
@@ -172,7 +175,6 @@ display: block;
 padding: 14px;
 margin: 0 0 18px;
 line-height: 16px;
-font-size: 14px;
 border: 1px dashed #ccc;
 border: 1px dashed rgba(0, 0, 0, 0.15);
 -webkit-border-radius: 3px;
