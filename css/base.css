@@ -38,7 +38,6 @@ a img:focus, a img:hover, a img:active { border-color: #a83303; }
 
 #wrapper {
 background: #ffffff;
-border: 10px solid #ffffff;
 margin: 20px auto;
 padding: 10px;
 width: 80%;
@@ -48,25 +47,27 @@ text-align: center;
 border-top: 1px solid #ccc;
 color: #555;
 font-size: 12px;
+margin-top: 30px;
 padding: 20px 0;
 }
 
 /* DEFAULT CSS */
 #access {
-font-size: 12px;
 overflow: hidden;
 padding: 10px;
+text-align: center;
 margin-bottom: 20px;
+}
+#access li{
+    padding-right: 10px;
+    display: inline;
 }
 #post h1{
 text-align: center; 
 }
 .post {
-border-top: 1px solid #ccc;
-padding: 20px;
-position: relative;
+    margin-bottom: 30px;
 }
-
 .post-content h3, #post h1 {
 font: 30px/1.6 Palatino,Georgia,serif;
 margin-bottom: 20px;
@@ -75,6 +76,10 @@ text-align: center;
 .post-content img {
 margin-bottom: 20px;
 padding: 10px;
+}
+#related{
+    text-align: center;
+    margin-top: 20px;
 }
 #dsq-content {
 font-size: 14px !important;
@@ -138,8 +143,6 @@ padding: 1px 0 1px 20px;
 background: url("http://static.tumblr.com/euguvyd/pJkl457a4/lightweight-small-icons.png") no-repeat right -64px;
 padding: 1px 20px 1px 0;
 }
-
-
 blockquote {
 padding: 0 13px 21px 15px;
 margin-bottom: 18px;
@@ -191,31 +194,42 @@ background-color: #fdfdfd;
 color:#737373;
 font-size: 14px;
 }
+.date{
+    text-align: right;
+}
+hr.center{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 
 /*home page*/
 #home_page{
-    margin:0 auto;
-    font-family: 'Homenaje';
+    margin: 0 auto;
+    margin-top: 10%;
+    /* font-family: 'Homenaje'; */
     text-align: center;
 }
 #home_page .title{
     font-size: 40px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+}
+#home_page .text{
+    margin: 0 auto;
+    padding: 0;
 }
 #home_page h3{
     font-size: 28px;
 }
 #home_page .container{
-    width: 90%;
-    margin:0 auto;
+    margin: 20px auto;
+    margin-top: 40px;
     text-align: center;
 }
 #home_page .column{
-    width: 300px;
     display: inline;
     padding: 10px;
     margin: 10px auto;
-    float: left;
 }
 .clear{
     clear: both;

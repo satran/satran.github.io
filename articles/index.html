@@ -6,29 +6,19 @@ title: Satyajit Ranjeev | Blog
     <div id="content">
 
     {% for post in site.posts %}
-        <div id="post-{{ post.id }}" class="">
+        <div class="post">
 
             <div class="post-content">
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <p class="date">{{ post.date | date_to_long_string }}</p>
                 <div>
                     {{ post.content | truncatewords: 100 }}
                 </div>
             </div><!-- post-content -->
             <p><a href="{{ post.url }}">Read more ...</a></p>
 
-            <div class="post-meta">
-                <div class="date">
-                    {{ post.date | date_to_long_string }}
-                </div><!-- .date -->
-
-            </div><!-- .post-meta -->
-            <div class="share-this-post">
-                <div class="facebook-button"><fb:like layout="standard" show_faces="false" width="450" action="like" colorscheme="light"></fb:like></div>
-                <div class="tweetmeme-button"><script type="text/javascript">tweetmeme_style = 'compact';</script><script type="text/javascript" src="http://tweetmeme.com/i/scripts/button.js"></script></div>
-            </div>
         </div><!-- .post -->
     {% endfor %}
-
 
     </div><!-- #content -->
 
