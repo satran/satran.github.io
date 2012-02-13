@@ -29,7 +29,6 @@ a:link, a:visited { color: #A8334A; text-decoration: none; }
 a:focus, a:hover { text-decoration: underline; }
 a:active { position: relative; top: 1px; }
 /* h1, h2, h3, h4, h5, h6 {  font-weight:normal; clear:both; } */
-img { border: 1px solid #ccc; }
 a img:focus, a img:hover, a img:active { border-color: #a83303; }
 h1, h2{ font-weight: normal;}
 
@@ -68,9 +67,11 @@ margin-bottom: 20px;
 .posts li{
     list-style: none;
 }
-.post-content img {
-margin-bottom: 20px;
+.post img {
 padding: 10px;
+display: block;
+margin: 0 auto;
+max-width: 90%;
 }
 #related{
     text-align: center;
