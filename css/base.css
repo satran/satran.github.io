@@ -16,8 +16,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* GLOBAL ELEMENTS */
 body { background: #ffffff; }
-body, input, textarea { color: #000; font: 17px/1.6 Palatino, Georgia,'Times New Roman',serif; }
-p, ul, ol, dd, pre { margin-bottom: 20px; }
+body, input, textarea { color: #000; font: 100% Palatino, Georgia,'Times New Roman',serif; }
+p, ul, ol, dd, pre { margin-bottom: 20px;line-height: 1.5; }
 pre, code { font: 12px Monaco,monospace; line-height: 1.6; }
 table { border: 1px solid #ccc; border-width: 1px 1px 0 1px; font-size: 14px; line-height: 1.6; margin: 0 0 20px 0; text-align: left; }
 caption { text-align: left; }
@@ -25,12 +25,27 @@ tr { border-bottom: 1px solid #ccc; }
 th, td { padding: .7em 1.25em; }
 hr { background-color: #ccc; border: 0; color: #555; height: 1px; margin-bottom: 20px; }
 /* a:link, a:visited { color: #a83303; text-decoration: none; } */
-a:link, a:visited { color: #A8334A; text-decoration: none; }
+/*a{ color: #A8334A; text-decoration: none; }*/
+a{ color: #e14e32; text-decoration: none; }
 a:focus, a:hover { text-decoration: underline; }
 a:active { position: relative; top: 1px; }
-/* h1, h2, h3, h4, h5, h6 {  font-weight:normal; clear:both; } */
+h1, h2, h3, h4, h5, h6 { font-family: 'Ubuntu Condensed', sans-serif; }
 a img:focus, a img:hover, a img:active { border-color: #a83303; }
-h1, h2{ font-weight: normal;}
+/* h1, h2{ font-weight: normal; font-family: Homenaje;} */
+
+h1 {
+font-weight: normal;
+font-size: 2.3em/* 72 / 16 */;
+line-height: 92px;
+margin-bottom: 24px;
+color: #444;
+text-shadow: 0 1px 0 rgba(255, 255, 255, .9);
+}
+
+h1 a{
+color: #444;
+text-shadow: 0 1px 0 rgba(255, 255, 255, .9);
+}
 
 #wrapper {
 background: #ffffff;
@@ -39,7 +54,6 @@ padding: 0 5%;
 }
 #footer {
 text-align: center;
-border-top: 1px solid #ccc;
 color: #555;
 font-size: 12px;
 margin-top: 30px;
@@ -51,6 +65,8 @@ padding: 20px 0;
 overflow: hidden;
 padding: 10px;
 margin-bottom: 20px;
+text-transform: uppercase;
+font-family: "Ubuntu Condensed", sans-serif;
 }
 #access li{
     padding-right: 10px;
@@ -58,11 +74,17 @@ margin-bottom: 20px;
     list-style: none;
 }
 #post h1, .post h1{
-text-align: center; 
-margin-bottom: 20px;
+    text-align: center; 
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
-.post {
+.post, #post {
     margin-bottom: 30px;
+    -webkit-box-shadow: 0px 16px 50px -30px #777;
+    -moz-box-shadow: 0px 16px 50px -30px #777;
+    -o-box-shadow: 0px 16px 50px -30px #777;
+    box-shadow: 0px 16px 50px -30px #777;
+    padding-bottom: 20px;
 }
 .posts li{
     list-style: none;
@@ -74,8 +96,15 @@ margin: 0 auto;
 max-width: 90%;
 }
 #related{
-    text-align: center;
+    text-align: right;
     margin-top: 20px;
+}
+#related h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+#related li{
+    margin: 10px -1;
 }
 #dsq-content {
 font-size: 14px !important;
@@ -214,7 +243,9 @@ hr.center{
     padding: 0;
 }
 #home_page h3{
+    text-transform: uppercase;
     font-size: 28px;
+    margin-bottom: 10px;
 }
 #home_page .container{
     margin: 20px auto;
