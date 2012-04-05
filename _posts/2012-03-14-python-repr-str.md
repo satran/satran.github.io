@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python '__repr__' and '__str__', the difference.
+title: Python repr and str, the difference
 ---
 # [{{ page.title }}]({{ page.url }})
 
