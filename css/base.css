@@ -27,7 +27,7 @@ hr { background-color: #ccc; border: 0; color: #555; height: 1px; margin-bottom:
 /* a:link, a:visited { color: #a83303; text-decoration: none; } */
 /*a{ color: #A8334A; text-decoration: none; }*/
 a{ color: #e14e32; text-decoration: none; }
-a:focus, a:hover { text-decoration: underline; }
+/* a:focus, a:hover { text-decoration: underline; } */
 a:active { position: relative; top: 1px; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Ubuntu Condensed', sans-serif; }
 a img:focus, a img:hover, a img:active { border-color: #a83303; }
@@ -44,7 +44,6 @@ text-shadow: 0 1px 0 rgba(255, 255, 255, .9);
 
 h1 a{
 color: #444;
-text-shadow: 0 1px 0 rgba(255, 255, 255, .9);
 }
 
 #wrapper {
@@ -77,6 +76,15 @@ font-family: "Ubuntu Condensed", sans-serif;
     text-align: center; 
     margin-bottom: 20px;
     text-transform: uppercase;
+}
+#post h1 a, .post h1 a{
+    color: #444;
+    font-weight: bold;
+}
+#post h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px #222, 0px -1px 0px #222;
 }
 .post, #post {
     margin-bottom: 30px;
@@ -230,13 +238,21 @@ hr.center{
 /*home page*/
 #home_page{
     margin: 0 auto;
-    margin-top: 10%;
     /* font-family: 'Homenaje'; */
     text-align: center;
 }
+#home_page>p{
+    background: #ccc;
+}
 #home_page .title{
-    font-size: 40px;
-    /* text-transform: uppercase; */
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #555;
+    text-shadow: 0px 1px 0px #222, 0px -1px 0px #222;
+    font-weight: bold;
+    background: #ccc;
+    margin-bottom: 0;
+    padding-bottom: 15px;
 }
 #home_page .text{
     margin: 0 auto;
