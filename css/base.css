@@ -205,7 +205,6 @@ code {
 background-color: #fee9cc;
 color: rgba(0, 0, 0, 0.75);
 padding: 1px 3px;
-font-size: 14px;
 }
 pre {
 display: block;
@@ -224,7 +223,6 @@ word-wrap: break-word;
 pre code {
 background-color: #fdfdfd;
 color:#737373;
-font-size: 14px;
 }
 .date{
     text-align: right;
