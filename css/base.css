@@ -88,10 +88,10 @@ font-family: "Ubuntu Condensed", sans-serif;
 }
 .post, #post {
     margin-bottom: 30px;
-    -webkit-box-shadow: 0px 16px 50px -30px #777;
-    -moz-box-shadow: 0px 16px 50px -30px #777;
-    -o-box-shadow: 0px 16px 50px -30px #777;
-    box-shadow: 0px 16px 50px -30px #777;
+    -webkit-box-shadow: 0px 22px 22px -30px #777;
+    -moz-box-shadow: 0px 22px 22px -30px #777; 
+    -o-box-shadow: 0px 22px 22px -30px #777; 
+    box-shadow: 0px 22px 22px -30px #777; 
     padding: 20px;
 }
 .posts li{
