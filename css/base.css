@@ -92,7 +92,7 @@ font-family: "Ubuntu Condensed", sans-serif;
     -moz-box-shadow: 0px 16px 50px -30px #777;
     -o-box-shadow: 0px 16px 50px -30px #777;
     box-shadow: 0px 16px 50px -30px #777;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 .posts li{
     list-style: none;
