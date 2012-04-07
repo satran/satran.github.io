@@ -236,10 +236,9 @@ hr.center{
 /*home page*/
 #home_page{
     margin: 0 auto;
-    /* font-family: 'Homenaje'; */
     text-align: center;
 }
-#home_page>p{
+#me{
     background: #ccc;
 }
 #home_page .title{
@@ -248,7 +247,6 @@ hr.center{
     color: #555;
     text-shadow: 0px 1px 0px #222, 0px -1px 0px #222;
     font-weight: bold;
-    background: #ccc;
     margin-bottom: 0;
     padding-bottom: 15px;
 }
