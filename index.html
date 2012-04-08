@@ -15,17 +15,9 @@ title: Satyajit Ranjeev
         <div class="column">
             <h3><a href="/articles/">Latest Posts</a></h3>        
             <ul>
-                {% for post in site.posts limit:3 %}
+                {% for post in site.posts limit:6 %}
                 <li><a href="{{ post.url }}">{{ post.date | date_to_string }}</a> - {{ post.title }}</li>
                 {% endfor %}
-            </ul>
-        </div>
-        <div class="column">
-            <h3><a href="/projects/">Projects</a></h3>        
-            <ul>
-                <li><a href="https://github.com/satyajitranjeev/mootailla">Mootailla</a> - A bug reporting system in Django.</li>
-                <li><a href="https://github.com/satyajitranjeev/refugee">Refugee</a> - A Refugee tracking system for NGO's and Churches.</li>
-                <li><a href="https://github.com/satyajitranjeev/Eve">Eve</a> - A School Management System.</li>
             </ul>
         </div>
         <div class="column">
