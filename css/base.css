@@ -97,7 +97,7 @@ font-family: "Ubuntu Condensed", sans-serif;
 .posts li{
     list-style: none;
 }
-.post img {
+.post img, #post img {
 padding: 10px;
 display: block;
 margin: 0 auto;
