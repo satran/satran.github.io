@@ -275,3 +275,9 @@ hr.center{
 .clear{
     clear: both;
 }
+#social{
+    padding: 20px;
+}
+#social div{
+    padding: 10px;
+}
