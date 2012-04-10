@@ -21,7 +21,7 @@ Here are my two cents on what to expect and do in a startup.
 
 Utilize your free time well. There will be times when you have little to do. Utilize this time, do not wait for someone to tell you what to do(usually folks don't.) Write scripts to automate things, learn more how to use your favourite editor(cough... cough... Vim), read about how to improve your code. Improve the code you wrote earlier. At work our self procliamed "genius" rewrote a 120 line code to a 6 liner. 
 
-Learn to adjust. I believe this is probably the most import thing to get right. There will definitely be areas in which you do not agree, let it be. You are not going to lose anything if you let it go. If what you were arguing for was right, in the long run that will be implemented. 
+Learn to adjust. I believe this is probably the most important thing to get right. There will definitely be areas in which you do not agree, let it be. You are not going to lose anything if you let it go. If what you were arguing for was right, in the long run that will be implemented. 
 
 Take work seriously. With a casual environment in a startup, generally, it is tempting to take things lightly. It is just not a 9 to 6 job. Sometimes you have to take up the problem back at home. When time comes it is necessary to stretch time a bit to make sure the work is done.
 
