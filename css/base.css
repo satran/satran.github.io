@@ -1,37 +1,19 @@
-/* RESET */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-margin: 0; padding: 0; border: 0; outline: 0;  vertical-align: baseline; background: transparent;
-}
-blockquote, q { quotes: none; }
-del { text-decoration: line-through; }
-table { border-collapse: collapse; border-spacing: 0; }
-
 /* GLOBAL ELEMENTS */
-body { background: #ffffff; }
-body, input, textarea { color: #000; font: 100% Palatino, Georgia,'Times New Roman',serif; }
+body { 
+    color: #000;
+    background: #ffffff; 
+    font-size: 110%; 
+    font-family: Palatino, Georgia,'Times New Roman',serif; 
+}
 p, ul, ol, dd, pre { margin-bottom: 20px;line-height: 1.5; }
-pre, code { font: 12px Monaco,monospace; line-height: 1.6; }
-table { border: 1px solid #ccc; border-width: 1px 1px 0 1px; font-size: 14px; line-height: 1.6; margin: 0 0 20px 0; text-align: left; }
+table { border: 1px solid #ccc; border-width: 1px 1px 0 1px; line-height: 1.6; margin: 0 0 20px 0; text-align: left; }
 caption { text-align: left; }
 tr { border-bottom: 1px solid #ccc; }
 th, td { padding: .7em 1.25em; }
 hr { background-color: #ccc; border: 0; color: #555; height: 1px; margin-bottom: 20px; }
-/* a:link, a:visited { color: #a83303; text-decoration: none; } */
-/*a{ color: #A8334A; text-decoration: none; }*/
 a{ color: #e14e32; text-decoration: none; }
-/* a:focus, a:hover { text-decoration: underline; } */
 a:active { position: relative; top: 1px; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Ubuntu Condensed', sans-serif; }
-a img:focus, a img:hover, a img:active { border-color: #a83303; }
-/* h1, h2{ font-weight: normal; font-family: Homenaje;} */
 
 h1 {
 font-weight: normal;
@@ -54,7 +36,6 @@ padding: 0 5%;
 #footer {
 text-align: center;
 color: #555;
-font-size: 12px;
 margin-top: 30px;
 padding: 20px 0;
 }
@@ -114,68 +95,6 @@ max-width: 90%;
 #related li{
     margin: 10px -1;
 }
-#dsq-content {
-font-size: 14px !important;
-line-height: 1.6 !important;
-}
-#disqus_thread h3 {
-font: 18px/1.6 Georgia,serif;
-margin: 20px 0 10px;
-}
-#dsq-content .dsq-request-user-info img {
-margin-top: 10px;
-}
-#dsq-content .dsq-options {
-background: none !important;
-border-bottom: 1px dotted #ccc;
-}
-#dsq-content .dsq-thread-settings {
-border: 1px solid #ccc !important;
-}
-#dsq-content .dsq-comment-message {
-line-height: 1.6 !important;
-}
-#dsq-content .dsq-pagination {
-background: none !important;
-border-top: 1px dotted #ccc;
-}
-#about {
-overflow: hidden;
-}
-#about img {
-float: left;
-margin: 5px 10px 5px 0;
-}
-#about p {
-margin-bottom: 0;
-}
-.pagination {
-border-top: 1px solid #ccc;
-color: #555;
-font-size: 12px;
-overflow: hidden;
-padding: 10px 0;
-text-transform: uppercase;
-}
-.pagination .archive, .pagination .random {
-float: left;
-margin-right: 20px;
-}
-.pagination .previous-page, .pagination .page-number, .pagination .next-page {
-float: right;
-margin-left: 20px;
-}
-.pagination a {
-color: #555;
-}
-.pagination .previous-page a {
-background: url("http://static.tumblr.com/euguvyd/pJkl457a4/lightweight-small-icons.png") no-repeat left -48px;
-padding: 1px 0 1px 20px;
-}
-.pagination .next-page a {
-background: url("http://static.tumblr.com/euguvyd/pJkl457a4/lightweight-small-icons.png") no-repeat right -64px;
-padding: 1px 20px 1px 0;
-}
 blockquote {
 padding: 0 13px 21px 15px;
 margin-bottom: 18px;
@@ -183,14 +102,12 @@ color: #555555;
 }
 blockquote:before {
 content:"\201C";
-font-size:40px;
 margin-left:-10px;
 font-family:georgia,serif;
 color:#eee;
 }
 blockquote p {
 font-weight: 300;
-line-height: 18px;
 margin-bottom: 0;
 font-style: italic;
 }
@@ -210,7 +127,6 @@ pre {
 display: block;
 padding: 14px;
 margin: 0 0 18px;
-line-height: 16px;
 border: 1px dashed #ccc;
 border: 1px dashed rgba(0, 0, 0, 0.15);
 -webkit-border-radius: 3px;
@@ -237,9 +153,6 @@ hr.center{
 #home_page{
     margin: 0 auto;
     text-align: center;
-}
-#me{
-    background: #ccc;
 }
 #home_page .title{
     font-size: 80px;

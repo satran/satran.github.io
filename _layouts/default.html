@@ -3,11 +3,31 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>{{ page.title }}</title>
+
+    <!-- CSS GRID -->
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="/css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+    <script type="text/javascript" src="/js/css3-mediaqueries.js"></script>
+
+    <!-- END of CSS GRID -->
+
+
     <link rel="shortcut icon" href="/images/favicon.png" />  
-    <link rel="stylesheet" href="/css/base.css" type="text/css" />
-    <!-- <link href='http://fonts.googleapis.com/css?family=Homenaje' rel='stylesheet' type='text/css'> -->
-    <!-- <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'> -->
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/base.css" type="text/css" />
+
+    <!-- Google Analytics -->
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-25812119-2']);
@@ -20,28 +40,37 @@
       })();
 
     </script>
+    <!-- End of Google Analytics -->
 </head>
 <body>
-    <div id="wrapper">
-        <div id="header">
-            <div id="access">
-                <ul>
-                    <li><a href="/">Satyajit Ranjeev</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/articles/">Articles</a></li>
-                    <li><a href="/contact/">Contact</a></li>
-                </ul>
-            </div><!-- #access -->
-        </div><!-- #header -->
-
-
-        <div id="main">
-                {{ content }}
-        <div id="social">
-            <div><a href="https://twitter.com/share" class="twitter-share-button" data-via="satyajitranjeev">Tweet</a></div>            
-            <div><g:plusone size="medium" annotation="inline"></g:plusone></div>
-            <div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
+    <div class="container">
+        <div class="row">
+            <div class="twelvecol">
+                <div id="header">
+                    <div id="access">
+                        <ul>
+                            <li><a href="/">Satyajit Ranjeev</a></li>
+                            <li><a href="/about/">About</a></li>
+                            <li><a href="/articles/">Articles</a></li>
+                            <li><a href="/contact/">Contact</a></li>
+                        </ul>
+                    </div><!-- #access -->
+                </div><!-- #header -->
+            </div>
         </div>
+
+
+        <div class="row">
+            <div class="twelvecol">
+                <div id="main">
+                        {{ content }}
+                <div id="social">
+                    <div><a href="https://twitter.com/share" class="twitter-share-button" data-via="satyajitranjeev">Tweet</a></div>            
+                    <div><g:plusone size="medium" annotation="inline"></g:plusone></div>
+                    <div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
+                </div>
+            </div>
+    </div>
 <!-- Google +1 -->
 <script type="text/javascript">
   (function() {
