@@ -2,7 +2,7 @@
 body { 
     color: #000;
     background: #ffffff; 
-    font-size: 110%; 
+    font-size: 100%; 
     font-family: Palatino, Georgia,'Times New Roman',serif; 
 }
 p, ul, ol, dd, pre { margin-bottom: 20px;line-height: 1.5; }
@@ -58,12 +58,12 @@ font-family: "Ubuntu Condensed", sans-serif;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-#post h1 a, .post h1 a{
+#post h1 a, .post h0 a{
     color: #444;
     font-weight: bold;
 }
 #post h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     text-shadow: 0px 1px 0px #222, 0px -1px 0px #222;
 }
