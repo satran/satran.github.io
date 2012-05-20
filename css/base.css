@@ -39,6 +39,9 @@ color: #555;
 margin-top: 30px;
 padding: 20px 0;
 }
+#footer div{
+ display: inline;
+}
 
 /* DEFAULT CSS */
 #access {
