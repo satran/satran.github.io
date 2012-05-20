@@ -4,6 +4,7 @@ title: A few things to remember while coding in Python.
 ---
 # [{{ page.title }}]({{ page.url }})
 
+UPDATE: There has been much discussion in [Hacker News](http://news.ycombinator.com/item?id=3996708) about this article. A few corrections from it.
 
 - **Zen of Python**
   
@@ -44,6 +45,13 @@ title: A few things to remember while coding in Python.
             >>> a[::-1]
             [5,4,3,2,1]
 
+    UPDATE: Do keep in mind `x.reverse()` reverses the list in place and slices gives you the ability to do this:
+
+            >>> x[::-1]
+            [5, 4, 3, 2, 1]
+
+            >>> x[::-2]
+            [5, 3, 1]
 
 - **Don't use mutables as defaults**
   
@@ -53,6 +61,9 @@ title: A few things to remember while coding in Python.
         def function(x, l=None):        # Way better
             if l is None:
                 l = []
+
+    UPDATE: I realise I haven't explained why. I would recommend reading the [article by Fredrik Lundh](http://effbot.org/zone/default-values.htm).
+    In short it is by design that this happens. "Default parameter values are always evaluated when, and only when, the “def” statement they belong to is executed;"
 
 - **Use `iteritems` rather than `items`**
   
@@ -66,6 +77,8 @@ title: A few things to remember while coding in Python.
         for key, val in d.iteritems()   # calls values only when requested.
 
     This is similar with `range` and `xrange` where `xrange` only calls values when requested.
+
+    UPDATE: Do note that the `iteritems`, `iterkeys`, `itervalues` are removed from Python 3.x. The `dict.keys()`, `dict.items()` and `dict.values()` return views instead of `lists`. [http://docs.python.org/release/3.1.5/whatsnew/3.0.html#views-and-iterators-instead-of-lists](http://docs.python.org/release/3.1.5/whatsnew/3.0.html#views-and-iterators-instead-of-lists)
 
 
 - **Use `isinstance` rather than `type`**
@@ -105,7 +118,8 @@ title: A few things to remember while coding in Python.
 
     Python has various container datatypes which are better alternative to the built-in containers like `list` and `dict` for specific cases. 
 
-    Generally most use this:
+    <s>Generally most use this:</s>
+    UPDATE: I'm sure most do not use this. Carelessness from my side. A few may consider writing it this way:
 
         freqs = {}
         for c in "abracadabra":
@@ -136,6 +150,13 @@ title: A few things to remember while coding in Python.
         OrderedDict	    # dict subclass that remembers the order entries were added	
         defaultdict	    # dict subclass that calls a factory function to supply missing values	
 
+    UPDATE: As noted by a few in Hacker News I could have used `Counter` instead of `defaultdict`.
+
+        >>> from collections import Counter
+        >>> c = Counter("abracadabra")
+        >>> c['a']
+        5
+        
 
 - **When creating classes Python's [magic methods](http://www.rafekettler.com/magicmethods.html)**
 
@@ -171,7 +192,31 @@ title: A few things to remember while coding in Python.
 
 - **Use the `Ellipsis` when necessary.**
 
-    When creating a class you can use `__getitem__` to make you class' object work like a dictionay. Take this class as an example:
+    UPDATE: As one commenter mentioned in Hacker News "Using Ellipsis for getting all items is a violation of the Only One Way To Do It principle. The standard notation is `[:]`." I do agree with him. A better example is given using numpy in [stackoverflow](http://stackoverflow.com/a/118508/504262):
+
+    The ellipsis is used to slice higher-dimensional data structures.
+
+    It's designed to mean at this point, insert as many full slices (:) to extend the multi-dimensional slice to all dimensions.
+
+    Example:
+
+        >>> from numpy import arange
+        >>> a = arange(16).reshape(2,2,2,2)
+
+    Now, you have a 4-dimensional matrix of order 2x2x2x2. To select all first elements in the 4th dimension, you can use the ellipsis notation
+
+        >>> a[..., 0].flatten()
+        array([ 0,  2,  4,  6,  8, 10, 12, 14])
+
+    which is equivalent to
+
+        >>> a[:,:,:,0].flatten()
+        array([ 0,  2,  4,  6,  8, 10, 12, 14])
+
+
+    **Previous suggestion.**
+
+    When creating a class you can use `__getitem__` to make you class' object work like a dictionary. Take this class as an example:
 
 
         class MyClass(object):
@@ -198,5 +243,4 @@ title: A few things to remember while coding in Python.
         >>> x = MyClass(11, 34, 23, 12)
         >>> x[...]
         [11, 34, 23, 12]
-
 
