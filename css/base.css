@@ -204,3 +204,4 @@ hr.center{
         font-size: 2.3em/* 72 / 16 */;
     }
 }
+#disqus_thread { clear: both !important; }
