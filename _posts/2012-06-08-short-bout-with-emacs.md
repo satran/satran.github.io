@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My short bout with Emacs and why I chose to stick Vim.
+title: My short bout with Emacs and why I chose to stick with Vim.
 ---
 # [{{ page.title }}]({{ page.url }})
 
