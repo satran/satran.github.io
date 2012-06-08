@@ -39,6 +39,8 @@ But as I constantly edited I stumbled across things I missed in vi:
 I believe the main reason was I had started to grok vi and any other thing seemed alien. Had I started with Emacs before vi I probably would have titled this "my short bout with vi and why I chose to stick with Emacs". Emacs is a great piece of software and kudos to all the great hackers using it. 
   
   
+Just a screenshot.
+![Screenshot Emacs](/images/others/emacs.png "Just a screenshot.")
   
    
 <sub>1. Eventually I wrote the plugin with Python.</sub>
