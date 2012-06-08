@@ -12,7 +12,7 @@ Ever since I came across Linux and UNIX I had been told about two great editors:
 
 I had to press `i` to start typing and then `Esc` and a `:wq` to save and quit! From the Windows' world of notepad it all seemed weird in the beginning. But it now seems to be the right way to edit files (I even have my zsh configured with vi bindings.) I have been using vi for more than 6 years now, and in the past few years became a lot more productive with it. I have my configurations hosted on [git](https://github.com/satyajitranjeev/Dotvim) so I can easily clone my setup in various machines. I have my favourite [plugins](https://github.com/satyajitranjeev/Dotvim/tree/master/bundle) and key bindings to make editing very comfortable. Why, I have even written my own plugin. So why did I want to try Emacs? 
 
-My experience with creating a plugin for vi had me toying around with VimScript `1` . Looking on the "greener" Emacs side I saw Lisp. I had just started learning Lisp and the idea of tweaking Emacs with Lisp drew me to Emacs like a wasp to a flame.
+My experience with creating a plugin for vi had me toying around with VimScript <sup>1</sup> . Looking on the "greener" Emacs side I saw Lisp. I had just started learning Lisp and the idea of tweaking Emacs with Lisp drew me to Emacs like a wasp to a flame.
 
 The "greener" side:
 - Emacs uses Lisp (rather elisp)
@@ -37,8 +37,8 @@ But as I constantly edited I stumbled across things I missed in vi:
 
 
 I believe the main reason was I had started to grok vi and any other thing seemed alien. Had I started with Emacs before vi I probably would have titled this "my short bout with vi and why I chose to stick with Emacs". Emacs is a great piece of software and kudos to all the great hackers using it. 
-
-
-**Footnotes:**  
-
-1. Eventually I wrote the plugin with Python.
+  
+  
+  
+   
+<sub>1. Eventually I wrote the plugin with Python.</sub>
