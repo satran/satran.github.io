@@ -11,7 +11,7 @@ Things were very different from what I imagined it to be from the moment I stepp
 
 Few days pass I got the keys to the office, being the only insane guy who wishes to come in *unearthly* work hours(8 - 5). I pop into the office at around 8 in the morning and expecting folks to trickle in by 9 - 10. I wait and wait... finally around 11 someone shows up and much later by 1 all are in. I just felt my whole world had turned upside down. I am some one who loves mornings. With no friends in Pune yet and a whole different work culture I started wondering if I made the right move. I called my girlfriend and told her I had made a mistake and was thinking of getting back to Bangkok. Days passed with similar changes, changes that I did not expect.
 
-With comfort from girlfriend, family and friends I decided to stick on to it. I am glad I decided to do so. For in these months I have come to enjoy the work and be a part of a brilliant team making great products. Things changed from drifting timing to a common 6 hour routine, from strangers to friends.
+With comfort from family and friends I decided to stick on to it. I am glad I decided to do so. For in these months I have come to enjoy the work and be a part of a brilliant team making great products. Things changed from drifting timing to a common 6 hour routine, from strangers to friends.
 
 Days are more interesting now, with a game of UNO(which has eventaully become Calvin ball) invariably being requested for, flame wars between Vim and Eclipse, decisions on how to code, logging into another's Facebook account(grin, you'd know what we'd do), rebooting other's machines via a remote shell and many more.
 
