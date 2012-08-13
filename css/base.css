@@ -68,7 +68,7 @@ font-family: "Ubuntu Condensed", sans-serif;
 #post h1{
     font-size: 50px;
     font-weight: bold;
-    text-shadow: 0px 1px 0px #222, 0px -1px 0px #222;
+    /*text-shadow: 0px 1px 0px #222, 0px -1px 0px #222;*/
 }
 .post, #post {
     margin-bottom: 30px;
