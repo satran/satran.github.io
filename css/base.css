@@ -161,6 +161,7 @@ hr.center{
 }
 #home_page .title{
     font-size: 80px;
+    font-family: 'Ubuntu Condensed', sans-serif;
     text-transform: uppercase;
     color: #555;
     text-shadow: 0px 1px 0px #222, 0px -1px 0px #222;
