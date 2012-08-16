@@ -13,7 +13,8 @@ th, td { padding: .7em 1.25em; }
 hr { background-color: #ccc; border: 0; color: #555; height: 1px; margin-bottom: 20px; }
 a{ color: #e14e32; text-decoration: none; }
 a:active { position: relative; top: 1px; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Ubuntu Condensed', sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Fredericka the Great', cursive; }
+/*h1, h2, h3, h4, h5, h6 { font-family: 'Ubuntu Condensed', sans-serif; }*/
 
 h1 {
 font-weight: normal;
