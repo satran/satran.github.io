@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <title>Satyajit Ranjeev | Page not found!</title>
-    <link rel="shortcut icon" href="/images/favicon.png" />  
-    <link rel="stylesheet" href="/css/base.css" type="text/css" />
+
+    <!-- CSS GRID -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="/images/favicon.png">  
     <link href="http://fonts.googleapis.com/css?family=Cabin+Sketch:bold" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/base.css" type="text/css">
+
+    <!-- Google Analytics -->
+    <script type="text/javascript" async="" src="/images/icons/ga.js"></script><script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25812119-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <!-- End of Google Analytics -->
     <style type="text/css" media="screen">
-        #main{
-            font-family: 'Cabin Sketch';
-            color: #555555;
-            min-height: 400px;
-            text-align: center;
-            margin: 0 auto;
-            width: 99%;
-        }
         #main h1{
             font-family: 'Cabin Sketch';
             padding-top: 120px; 
@@ -25,39 +35,42 @@
             font-family: 'Cabin Sketch';
             text-align: left;
         }
-        img{
+        #main img{
             border: none;
             padding-right: 20px;
+        }
+        #main div{
+            text-align: center;
+            font-family: 'Cabin Sketch';
+            color: #555555;
+            margin: 0 auto;
+            width: 99%;
         }
     </style>
 </head>
 <body>
-    <div id="wrapper">
-        <div id="header">
-            <div id="access">
-                <ul>
-                    <li><a href="/">Satyajit Ranjeev</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/articles/">Articles</a></li>
-                    <li><a href="/contact/">Contact</a></li>
-                </ul>
-            </div><!-- #access -->
-        </div><!-- #header -->
-
+    <div class="container">
+        <div id="menu">
+            <ul>
+                <li><a href="/"><img class="me" src="/images/icons/satyajit.png"></a></li>
+                <li><a href="/about/"><img src="/images/icons/about.png"></a></li>
+                <li><a href="/articles/"><img src="/images/icons/articles.png"></a></li>
+                <li><a href="/contact/"><img src="/images/icons/email.png"></a></li>
+                <li><a href="/feed.xml"><img src="/images/icons/rss.png"></a></li>
+            </ul>
+        </div>
 
         <div id="main">
+            <div>
                 <img src="/images/404.jpg" height="300px" align="left"/>
                 <h1>404! Could not find page.</h1>
                 <h3>Hmmm... I looked through the whole stack. I still couldn't find it.</h3>
                 <p></p>
+            <div>
         </div><!-- #main -->
 
 
-        <div id="footer">     
-            <div class="copyright">&copy; <a href="/">Satyajit Ranjeev</a>. All Rights Reserved.</div>
-        </div><!-- #footer -->
+    </div><!-- #container -->
 
 
-    </div><!-- #wrapper -->
-</body>
-</html>
+</body></html>

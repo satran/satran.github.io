@@ -5,24 +5,8 @@
     <title>{{ page.title }}</title>
 
     <!-- CSS GRID -->
-    
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
-	<!-- 1140px Grid styles for IE -->
-	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
-
-	<!-- The 1140px Grid - http://cssgrid.net/ -->
-	<link rel="stylesheet" href="/css/1140.css" type="text/css" media="screen" />
-	
-	<!-- Your styles -->
-	<link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
-	
-	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
-    <script type="text/javascript" src="/js/css3-mediaqueries.js"></script>
-
-    <!-- END of CSS GRID -->
-
-
     <link rel="shortcut icon" href="/images/favicon.png" />  
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
@@ -45,38 +29,24 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="twelvecol">
-                <div id="header">
-                    <div id="access">
-                        <ul>
-                            <li><a href="/">Satyajit Ranjeev</a></li>
-                            <li><a href="/about/">About</a></li>
-                            <li><a href="/articles/">Articles</a></li>
-                            <li><a href="/contact/">Contact</a></li>
-                        </ul>
-                    </div><!-- #access -->
-                </div><!-- #header -->
-            </div>
+        <div id="menu">
+            <ul>
+                <li><a href="/"><img class="me" src="/images/icons/satyajit.png" /></a></li>
+                <li><a href="/about/"><img src="/images/icons/about.png" /></a></li>
+                <li><a href="/articles/"><img src="/images/icons/articles.png" /></a></li>
+                <li><a href="/contact/"><img src="/images/icons/email.png" /></a></li>
+                <li><a href="/feed.xml"><img src="/images/icons/rss.png" /></a></li>
+            </ul>
         </div>
 
 
-        <div class="row">
-            <div class="twelvecol">
-                <div id="main">
-                        {{ content }}
-               
+        <div id="main">
+            <div class="content">
+                {{ content }}
+            </div>
         </div><!-- #main -->
 
 
-        <div id="footer">     
-            <div class="feed">
-                <a href="/feed.xml">RSS Feed.</a>
-            </div>
-            <div class="copyright">&copy; <a href="/">Satyajit Ranjeev</a>. All Rights Reserved.</div>
-        </div><!-- #footer -->
-
-
-    </div><!-- #wrapper -->
+    </div><!-- #container -->
 </body>
 </html>
