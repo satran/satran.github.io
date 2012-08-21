@@ -7,6 +7,10 @@ body{
     margin: 0;
     padding: 0;
 }
+ul, ol{
+    margin: 0;
+    padding: 0;
+}
 h1, h2, h3, h4, h5, h6 { 
     /*font-family: 'Fredericka the Great', cursive; */
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -116,7 +120,7 @@ pre code {
     }
     #menu ul{
         margin: 0;
-        padding: 16px 8px ;
+        padding: 16px 0;
     }
     #menu img{
         width: 48px;
@@ -125,7 +129,7 @@ pre code {
     #menu li{
         display: inline;
         list-style: none;
-        padding: 0 10px;
+        padding: 0 5px;
     }
     #main{
         margin-left: 0;
