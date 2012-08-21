@@ -192,3 +192,7 @@ pre code {
     border-bottom: 1px dashed #ccc;
     padding-bottom: 20px;
 }
+.contact img{
+    width: 64px;
+    display: inline;
+}
