@@ -3,7 +3,7 @@ body{
     background: #ffffff; 
     font-size: 100%; 
     font-family: Palatino, Georgia,'Times New Roman',serif; 
-    line-height: 1.5;
+    line-height: 2;
     margin: 0;
     padding: 0;
 }
@@ -40,6 +40,7 @@ code, pre {
     -moz-border-radius: 3px;
     border-radius: 3px;
     font-size: 90%;
+    line-height: 1.5;
 }
 code {
     background-color: #fee9cc;
