@@ -1,0 +1,139 @@
+A quick look at what you have in store.
+=======================================
+
+- Vim?
+
+- A brief history of Vim.
+
+- Why in world must I use something archaic?
+
+- Understanding the grammar of Vim commands.
+
+- Becoming more productive while coding Python.
+
+- Using Vim and ipython side by side.
+
+- Extending Vim commands to the terminal.
+
+- Customising Vim to your likes.
+
+- Distributing your vim files.
+
+
+
+
+
+Vim?
+----
+
+Vim is a text editor, a modal one.
+
+Pronounced like like "Jim" (and not vee-eye-em).
+
+A clone of vi.
+
+
+
+A Brief history of Vim.
+-----------------------
+
+vi created by Bill Joy in 1976.
+
+Gets its name from the unambigous abbreviation for the command visual.
+
+Clones - Elvis, Stevie, nvi.
+
+Vim written by Bram MOolenaar in 1991.
+
+Based on Stevie.
+
+Originally stood for Vi IMitation later changed to Vi IMproved.
+
+"vi introduced the standard from which others borrowed (vile, elvis, nvi), and Vim took the baton and ran with it."
+
+
+
+
+Why in world must I use something archaic?
+------------------------------------------
+
+
+- Modal Editing. PERIOD!
+
+  "A Modal interface in the hands of an experienced and non-fickle person can be extremely efficient." - Stackoverflow user.
+
+  Everyone's first vi session.
+
+    ^C^C^X^X^X^XquitqQ!qdammit[esc]qwertyuiopasdfghjkl;:xwhat
+
+
+- A "Language" of Text Editing (Steve Losh)
+ 
+  "...it is available in nearly identical form on every modern Unix system, thus providing a kind of text-editing lingua franca."   - Learing the vi and Vim Editors, OReilly.
+
+    Verbs and nouns.
+
+    Adjectives.
+
+    Sentences.
+
+
+Becoming more productive while coding Python.
+---------------------------------------------
+
+Setting Vim for Python
+
+    set expandtab
+    set textwidth=79
+    set tabstop=4
+    set softtabstop=4
+    set shiftwidth=4
+    set autoindent
+http://www.vex.net/~x/python_and_vim.html
+
+Syntastic for Python
+
+Rope
+
+Tagbar
+
+Navigating
+
+
+Using Vim and ipython side by side.
+-----------------------------------
+
+Setting up ipython
+
+Vim-ipython plugin
+
+
+
+Extending Vim commands to the terminal.
+---------------------------------------
+
+Binding vim keys to shell
+
+
+
+
+Customising Vim to your likes.
+------------------------------
+
+Plugins
+
+Help
+
+Writing your own scripts
+
+
+
+Distributing your vim files.
+----------------------------
+
+Well commented vimrc
+
+Use pathogen
+
+Use git
+
