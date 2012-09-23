@@ -285,7 +285,7 @@ p{
     font-weight: 700;
 }
 #credits .text-2{
-    font-size: 200px; 
+    font-size: 80px; 
     line-height: 1;
     text-transform: lowercase;
 }
@@ -293,4 +293,12 @@ p{
     line-height: 1;
     text-transform: lowercase;
     font-size: 120px; 
+}
+
+
+
+
+#questions p{
+    font-size: 150px; 
+    font-weight: 900;
 }
