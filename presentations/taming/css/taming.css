@@ -298,6 +298,12 @@ p{
 
 
 
+#questions{
+    color: #efefef;
+}
+#questions.active{
+    color: #000000;
+}
 #questions p{
     font-size: 150px; 
     font-weight: 900;
