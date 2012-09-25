@@ -78,7 +78,7 @@ p{
 
 
 #why-me{
-    text-align: right;
+    text-align: left;
 }
 #why-me .text-1{
     font-size: 122px; 
@@ -97,7 +97,7 @@ p{
 
 
 #what-vim{
-    text-align: right;
+    text-align: left;
 }
 #what-vim .text-1{
     font-size: 267px; 
@@ -174,7 +174,25 @@ p{
     font-size: 80px;
     font-weight: 200;
 }
-
+#modal-2 p{
+    line-height: 1;
+}
+#modal-2 .text-1{
+    font-weight: 700;
+}
+#modal-3 .text-1{
+    font-weight: 700;
+    font-size: 150px;
+}
+#modal-4 .text-1{
+    font-size: 136px;
+}
+#modal-5 .text-1{
+    font-size: 164px;
+}
+#modal-6 .text-1{
+    font-size: 71px;
+}
 
 
 
@@ -205,6 +223,14 @@ p{
 }
 
 
+
+#others{
+    text-align: left;
+}
+#others .text-1{
+    font-weight: 700;
+    font-size: 120px;
+}
 
 
 #vim-python .text-1{
@@ -240,11 +266,11 @@ p{
 
 
 #terminal .text-1{
-    font-size: 76px; 
+    font-size: 80px; 
     font-weight: 700;
 }
 #terminal .text-2{
-    font-size: 128px; 
+    font-size: 135px; 
 }
 
 
@@ -264,17 +290,18 @@ p{
 
 
 
+#distributing{
+    text-align: left;
+}
 #distributing .text-1{
     font-size: 120px; 
     font-weight: 700;
 }
 #distributing .text-2{
     font-size: 128px; 
-    text-align: right;
 }
 #distributing .text-3{
     font-size: 128px; 
-    text-align: right;
 }
 
 
