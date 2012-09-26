@@ -232,6 +232,17 @@ p{
     font-size: 120px;
 }
 
+#overview{
+    text-align: left;
+}
+
+#overview .text-1{
+    font-weight: 700;
+    font-size: 120px;
+}
+
+
+
 
 #vim-python .text-1{
     font-weight: 900;
@@ -325,10 +336,10 @@ p{
 
 
 
-#questions{
+.vertical{
     color: #efefef;
 }
-#questions.active{
+.vertical.active{
     color: #000000;
 }
 #questions p{
