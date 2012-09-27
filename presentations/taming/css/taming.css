@@ -8,6 +8,15 @@ p{
     padding:0;
 }
 
+a {
+    color: black;
+    opacity: .12;
+    text-decoration: none;
+}
+.active a{
+    opacity: 1;
+}
+
 /* When impress cannot render */
 .fallback-message {
     font-family: sans-serif;
@@ -331,6 +340,31 @@ p{
     line-height: 1;
     text-transform: lowercase;
     font-size: 120px; 
+}
+
+
+
+#resources .text-1{
+    font-size: 182px;
+    font-weight: 900;
+}
+#resources .text-2{
+    font-size: 143px;
+}
+#resources .text-3{
+    font-size: 90px;
+}
+#resources .text-4{
+    font-size: 118px;
+}
+#resources .text-5{
+    font-size: 73px;
+}
+#resources .text-6{
+    font-size: 70px;
+}
+#resources .text-7{
+    font-size: 70px;
 }
 
 
