@@ -1,8 +1,8 @@
 ---
 layout: post
 title: My short bout with Emacs and why I chose to stick with Vim.
+summary: Ever since I came across Linux and UNIX I had been told about two great editors- Emacs and vi. Toying around Linux I came across vi more frequently. Many articles had me typing commands in bash like 
 ---
-# [{{ page.title }}]({{ page.url }})
 
 This is not to kindle the flame wars of Emacs and Vim. This is just my experience with Emacs.
 

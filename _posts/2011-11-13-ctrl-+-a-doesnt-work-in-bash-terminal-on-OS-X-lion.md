@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Ctrl + a doesn't work in Bash Terminal on OS X Lion
+summary: I had this problem for a while and just ignored it for a while till it was unbearable. Well after googling a bit I came across stackoverflows answer. ^A and ^E are commands of bash's “emacs mode”.
 ---
-# [{{ page.title }}]({{ page.url }})
 
 I had this problem for a while and just ignored it for a while till it was unbearable. Well after googling a bit I came across stackoverflows answer. `^A` and `^E` are commands of bash's “emacs mode”. All I had to do was in the terminal type  
 

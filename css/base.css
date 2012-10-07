@@ -189,7 +189,16 @@ pre code {
     border-bottom: 1px dashed #ccc;
     padding-bottom: 10px;
 }
-
+.post .date, .post .readmore{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: .8em;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+.post .date{
+}
 #related{
     margin: 60px 0 0;
     border-top: 1px dashed #ccc;

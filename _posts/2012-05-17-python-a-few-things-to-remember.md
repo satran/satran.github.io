@@ -1,8 +1,8 @@
 ---
 layout: post
 title: A few things to remember while coding in Python.
+summary: Learning the culture that surrounds a language brings you one step closer to being a better programmer. If you haven't read the Zen of Python yet open a Python prompt and type import this. 
 ---
-# [{{ page.title }}]({{ page.url }})
 
 UPDATE: There has been much discussion in [Hacker News](http://news.ycombinator.com/item?id=3996708) about this article. A few corrections from it.
 

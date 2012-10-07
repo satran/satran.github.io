@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Working in a Startup
+summary: Seven months back I made the decision of leaving Bangkok and returning to India. Making the move was a thing I felt I had to do. My work was getting less challenging and needed something new to toy around with. Joining a startup was definitely something new. The interview sessions I had with MQuotient had definitely struck the right note. Folks there seemed to be brilliant and were bubbling with ideas, ideas that caught my attention. With all set I moved to Koregaon Park, Pune.
 ---
-# [{{ page.title }}]({{ page.url }})
 
 Seven months back I made the decision of leaving Bangkok and returning to India. Making the move was a thing I felt I had to do. My work was getting less challenging and needed something new to toy around with. Joining a startup was definitely something new. The interview sessions I had with [MQuotient](http://www.mquotient.net) had definitely struck the right note. Folks there seemed to be brilliant and were bubbling with ideas, ideas that caught my attention. With all set I moved to Koregaon Park, Pune.
 

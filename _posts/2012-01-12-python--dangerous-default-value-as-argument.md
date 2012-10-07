@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Python - Dangerous default value as argument
+summary: Default values in Python can act strangely, atleast seem that way. Assigning lists to default values in functions can give you strange results.
 ---
-# [{{ page.title }}]({{ page.url }})
 
 Pylint in my vim constantly showed this error:
 

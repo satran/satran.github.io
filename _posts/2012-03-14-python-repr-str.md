@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Python repr and str - the difference
+summary: This is usually a question asked in many Python interviews- What is the difference between the __str__ and __repr__ methods of a Python object. The same question was asked by one of my colleagues, which got me researching.
 ---
-# [{{ page.title }}]({{ page.url }})
 
 This is usually a question asked in many Python interviews: What is the difference between the `__str__` and `__repr__` methods of a Python object. The same question was asked by one of my colleagues, which got me researching.
 
