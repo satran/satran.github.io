@@ -93,7 +93,7 @@ pre code {
 #menu .me{
     box-shadow: 1px 1px 3px 0px #000000;
 }
-#main{
+#main, #footer{
     margin-left: 100px;
     padding: 1em;
 }
@@ -102,6 +102,10 @@ pre code {
     max-width: 900px;
 }
 #main h1{
+    text-align: center;
+}
+#footer{
+    font-size: .7em;
     text-align: center;
 }
 
@@ -131,7 +135,7 @@ pre code {
         list-style: none;
         padding: 0 5px;
     }
-    #main{
+    #main, #footer{
         margin-left: 0;
         padding: 1em;
     }
