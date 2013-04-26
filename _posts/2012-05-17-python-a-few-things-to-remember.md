@@ -228,7 +228,7 @@ UPDATE: There has been much discussion in [Hacker News](http://news.ycombinator.
 
         x = MyClass(10, 12, 22, 14)
 
-    Because of `__getitem__` you will be able to get the value of `a` in the object `x` by `x['a']`. This is probably a know fact. 
+    Because of `__getitem__` you will be able to get the value of `a` in the object `x` by `x['a']`. This is probably a known fact. 
 
     This object is used to extend the Python slicing.([http://docs.python.org/library/stdtypes.html#bltin-ellipsis-object](http://docs.python.org/library/stdtypes.html#bltin-ellipsis-object)). Thus if we add a clause:
 
