@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Book Review: Understanding and Using C Pointers
+title: Book Review - Understanding and Using C Pointers
 summary: A review of the book by O'Reilly on pointers in C.
 ---
 
