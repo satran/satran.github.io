@@ -1,0 +1,13 @@
+# Part I
+* Probably the question to ponder - What is Python and why must you use it?
+* So where is it being used? How do we use it at work?
+* So Lets get started by installing.
+* Zen of Python
+* Hello World!
+* Program (lets learn variables, loops and conditionals)
+* Lets not repeat ourselves - functions.
+* Data structures.
+
+# Part II
+* Its all objects
+* Lets talk about Classes

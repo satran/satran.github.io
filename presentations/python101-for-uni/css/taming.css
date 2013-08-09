@@ -1,0 +1,398 @@
+body {
+    font-size: 70px;
+    background: #efefef;
+    line-height: .7;
+}
+p{
+    margin:0;
+    padding:0;
+}
+
+a {
+    color: black;
+    opacity: .12;
+    text-decoration: none;
+}
+.active a{
+    opacity: 1;
+}
+
+/* When impress cannot render */
+.fallback-message {
+    font-family: sans-serif;
+    line-height: 1.3;
+    
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+.impress-supported .fallback-message {
+    display: none;
+}
+/* fallback -- end -- */
+
+.step{
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    width: 1000px;
+    text-align: center;
+    line-height: .8;
+    opacity: .12;
+    color: black;
+}
+.active{
+    opacity: 1;
+    z-index: 3000;
+}
+.step p{
+    display: block;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+
+
+#title {
+    padding: 20px;
+}
+#title .text-1{
+    font-size: 88px;
+}
+#title .text-2{
+    font-size: 75px;
+}
+#title .text-3{
+    font-size: 103px;
+}
+#title .text-4{
+    font-size: 143px;
+    font-weight: 800;
+}
+#title .text-5{
+    font-weight: 200;
+    font-size: 70px;
+}
+
+
+
+
+
+#why-me{
+    text-align: left;
+}
+#why-me .text-1{
+    font-size: 122px; 
+    font-weight: 900;
+}
+#why-me .text-2{
+    font-size: 153px; 
+}
+#why-me .text-3{
+    font-size: 420px; 
+    font-weight: 200;
+}
+
+
+
+
+
+#what-vim{
+    text-align: left;
+}
+#what-vim .text-1{
+    font-size: 267px; 
+    font-weight: 900;
+}
+#what-vim .text-2{
+    font-size: 260px; 
+}
+
+
+
+
+
+#brief-history{
+    text-transform: none;
+}
+#brief-history .text-1{
+    font-size: 120px; 
+    font-weight: 900;
+}
+#brief-history-1{
+    line-height: 1;
+}
+#brief-history-1 .text-2{
+    font-size: 127px; 
+}
+#brief-history-1 .text-3{
+    font-weight: 400;
+    font-size: 120px; 
+}
+#brief-history-1 .text-4{
+    font-size: 102px; 
+}
+#brief-history-1 .text-5{
+    font-size: 170px; 
+}
+
+
+
+
+
+#why-archaic .text-1{
+    font-size: 100px; 
+    font-weight: 700;
+}
+#why-archaic .text-2{
+    font-size: 90px; 
+    font-weight: 300;
+}
+
+
+
+
+#modal .text-1{
+    font-size: 100px;
+    font-weight: 900;
+}
+#modal-1 .text-1{
+    font-size: 145px;
+}
+#modal-1 .text-2{
+    font-size: 87px;
+}
+#modal-1 .text-3{
+    font-size: 77px;
+}
+#modal-1 .text-4{
+    font-size: 95px;
+}
+#modal-1 .text-5{
+    font-size: 125px;
+}
+#modal-1 .text-6{
+    font-size: 80px;
+    font-weight: 200;
+}
+#modal-2 p{
+    line-height: 1;
+}
+#modal-2 .text-1{
+    font-weight: 700;
+    font-size: 148px;
+}
+#modal-3 .text-1{
+    font-weight: 700;
+    font-size: 150px;
+}
+#modal-4 .text-1{
+    font-size: 136px;
+}
+#modal-5 .text-1{
+    font-size: 164px;
+}
+#modal-6 .text-1{
+    font-size: 71px;
+}
+
+
+
+#language .text-1{
+    font-size: 164px;
+    font-weight: 900;
+}
+#language .text-2{
+    font-weight: 900;
+    font-size: 102px;
+}
+#language .text-3{
+    font-weight: 200;
+    font-size: 108px;
+}
+#language-1{
+    line-height: 1;
+}
+#language-1 .text-2{
+    font-size: 46px;
+    font-weight: 200;
+}
+#language-3 p{
+    font-size: 115px;
+}
+#language-4 p{
+    font-size: 116px;
+}
+
+
+
+#others{
+    text-align: left;
+}
+#others .text-1{
+    font-weight: 700;
+    font-size: 100px;
+}
+
+#overview{
+    text-align: left;
+}
+
+#overview .text-1{
+    font-weight: 700;
+    font-size: 120px;
+}
+
+
+
+
+#vim-python .text-1{
+    font-weight: 900;
+    font-size: 120px;
+}
+#vim-python-2 p{
+    font-size: 152px; 
+}
+#vim-python-3 p{
+    font-size: 300px; 
+}
+#vim-python-4 p{
+    font-size: 210px; 
+}
+#vim-python-5 p{
+    font-size: 140px; 
+}
+
+
+
+
+#ipython .text-1{
+    font-size: 120px; 
+    font-weight: 900;
+}
+#ipython .text-2{
+    font-size: 162px; 
+    font-weight: 200;
+}
+
+
+
+
+#terminal .text-1{
+    font-size: 80px; 
+    font-weight: 700;
+}
+#terminal .text-2{
+    font-size: 135px; 
+}
+
+
+
+
+#custom p{
+    font-size: 128px; 
+    display: inline;
+}
+#custom .text-1{
+    font-weight: 700;
+}
+#custom .text-2{
+    font-weight: 100;
+}
+
+
+
+
+#distributing{
+    text-align: left;
+}
+#distributing .text-1{
+    font-size: 108px;
+    font-weight: 700;
+}
+#distributing .text-2{
+    font-size: 128px; 
+}
+#distributing .text-3{
+    font-size: 128px; 
+}
+
+
+
+
+#credits .text-1{
+    font-size: 237px; 
+    font-weight: 700;
+}
+#credits .text-2{
+    font-size: 80px; 
+    line-height: 1;
+    text-transform: lowercase;
+}
+#credits .text-3{
+    line-height: 1;
+    text-transform: lowercase;
+    font-size: 120px; 
+}
+
+
+
+#resources .text-1{
+    font-size: 182px;
+    font-weight: 900;
+}
+#resources .text-2{
+    font-size: 143px;
+}
+#resources .text-3{
+    font-size: 90px;
+}
+#resources .text-4{
+    font-size: 118px;
+}
+#resources .text-5{
+    font-size: 73px;
+}
+#resources .text-6{
+    font-size: 70px;
+}
+#resources .text-7{
+    font-size: 70px;
+}
+
+
+
+#contact .text-1{
+    font-size: 182px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#contact p{
+    text-transform: none;
+    line-height: 1;
+}
+#contact .text-2{
+    font-size: 60px;
+}
+#contact .text-3{
+}
+
+
+.vertical{
+    color: #efefef;
+}
+.vertical.active{
+    color: #000000;
+}
+#questions p{
+    font-size: 150px; 
+    font-weight: 900;
+}

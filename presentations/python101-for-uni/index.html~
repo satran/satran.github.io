@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Taming the snake with the king of editors - Vim</title>
+
+    <meta name="description" content="Presentation for Pycon India 2012" />
+    <meta name="author" content="Satyajit Ranjeev" />
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/taming.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+
+<body class="impress-not-supported">
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+
+    <div id="impress">
+
+
+
+        <div id="title" class="step" data-scale="5">
+            <p class="text-1">taming the snake</p>
+            <p class="text-2">with the king of</p>
+            <p class="text-3">editors</p>        
+            <p class="text-4">Vim</p>
+            <p class="text-5">satyajit ranjeev</p>
+        </div>
+
+
+
+        <div id="why-me" class="step" data-x="2000" data-y="-1100">
+            <p class="text-1">why should you</p>
+            <p class="text-2">listen to</p>
+            <p class="text-3">me?</p>
+        </div>
+ 
+
+
+        <div id="what-vim" class="step" data-x="2000" data-y="-400">
+            <p class="text-1">what is</p>
+            <p class="text-2">Vim?</p>
+        </div>     
+
+
+
+        <div id="brief-history" class="step" data-x="-1000" data-y="1600">
+            <p class="text-1">Brief History</p>
+        </div>     
+
+        <div id="brief-history-1" class="step" data-x="-1000" data-y="2100" data-rotate="90">
+            <p class="text-2">vi Bill Joy 1976</p>
+            <p class="text-3">Bram MOolenaar 1991</p>
+            <p class="text-4">Based on Stevie</p>
+            <p class="text-5">Vi IMitation - Vi IMproved</p>
+        </div>     
+
+
+
+
+        <div id="why-archaic" class="step" data-x="2000" data-y="0">
+            <p class="text-1">Why in world must I</p>
+            <p class="text-2">use something archaic?</p>
+        </div>
+
+
+
+
+        <div id="modal" class="step" data-x="-1600" data-y="100" data-rotate="90">
+            <p class="text-1">Modal Editing</p>
+        </div>
+
+        <div id="modal-1" class="step" data-x="-2200" data-y="100">
+            <p class="text-1">A Modal interface in the</p>
+            <p class="text-2">hands of an experienced and</p>
+            <p class="text-3">non-fickle person can be</p>
+            <p class="text-4">extremely</p>
+            <p class="text-5">efficient</p>
+            <p class="text-6">- a stackoverflow user</p>
+        </div>
+
+        <div id="modal-2" class="step" data-x="-3000" data-y="100" data-rotate="90">
+            <p class="text-1">Everyone's first vi session</p>
+            <p>^C^C^X^X^X^X</p>
+            <p>quitqQ!qdammit</p>
+            <p>[esc]qwertyuio</p>
+            <p>pasdfghjkl;:xwhat</p>
+        </div>
+
+
+
+
+
+        <div id="language" class="step" data-x="-1700" data-y="1000" data-rotate="90">
+            <p class="text-1">Language of</p>
+            <p class="text-2">text editing</p>
+            <p class="text-3">steve losh</p>
+        </div>
+
+        <div id="language-1" class="step" data-x="-2300" data-y="1000">
+            <p class="text-1">"...it is available in nearly identical form on every modern Unix system, thus providing a kind of text-editing lingua franca." </p>
+            <p class="text-2">- Learning the vi and Vim Editors, OReilly.</p>
+        </div>
+
+        <div id="language-2" class="step" data-x="-2300" data-y="1500">
+            <p>nouns and verbs</p>
+        </div>
+
+        <div id="language-3" class="step" data-x="-2300" data-y="1610">
+            <p>adjectives</p>
+        </div>
+
+        <div id="language-4" class="step" data-x="-2300" data-y="1730">
+            <p>sentences</p>
+        </div>
+
+
+
+
+
+        <div id="others" class="step" data-x="2000" data-y="1300">
+            <p class="text-1">Other reasons</p>
+            <p class="text-2">customizable</p>
+            <p class="text-2">extensible</p>
+            <p class="text-3">availability</p>
+            <p class="text-3">minimalistic</p>
+            <p class="text-3">quick</p>
+        </div>
+
+
+        <div id="overview" class="step" data-x="2000" data-y="1700">
+            <p class="text-1">Quick Overview</p>
+        </div>
+
+
+
+
+
+        <div id="vim-python" class="step" data-x="0" data-y="1600">
+            <p class="text-1">Vim and Python</p>
+        </div>     
+
+        <div id="vim-python-1" class="step" data-x="370" data-y="2100" data-rotate="90">
+            <p class="text-1">Settings for Python</p>
+        </div>  
+        <div id="vim-python-2" class="step" data-x="270" data-y="2100" data-rotate="90">
+            <p class="text-2">Syntastic</p>
+        </div>  
+        <div id="vim-python-3" class="step" data-x="100" data-y="2100" data-rotate="90">
+            <p class="text-3">Rope</p>
+        </div>  
+        <div id="vim-python-4" class="step" data-x="-100" data-y="2100" data-rotate="90">
+            <p class="text-4">Tagbar</p>
+        </div>  
+
+    
+
+
+        <div id="terminal" class="step" data-x="2000" data-y="300">
+            <p class="text-1">Extending Vim commands</p>
+            <p class="text-2">to the terminal</p>
+        </div>      
+
+
+        <div id="ipython" class="step" data-x="1000" data-y="1660">
+            <p class="text-1">ipython</p> 
+            <p class="text-2">and vim</p> 
+        </div>
+  
+
+
+
+        <div id="custom" class="step" data-x="2000" data-y="600">
+            <p class="text-1">Customizing</p>
+            <p class="text-2">Vim</p>
+        </div>
+
+        <div id="custom-1" class="vertical step" data-x="2000" data-y="600" data-rotate-x="-90" data-rotate-y="0">
+            <p>Pathogen</p>
+            <p>Gundo</p>
+            <p>Snipmate</p>
+            <p>Fugitive</p>
+            <p>Command-T</p>
+            <p>Powerline</p>
+            <p>Surround</p>
+        </div>
+
+
+
+
+        <div id="distributing" class="step" data-x="2000" data-y="900">
+            <p class="text-1">Distributing</p>
+        </div>
+
+
+
+        <div id="credits" class="step" data-x="-1750" data-y="-1000" data-rotate="90">
+            <p class="text-1">Credits</p>
+            <p class="text-3">impress.js</p>
+            <p class="text-2">MQuotient, Yati and friends</p>
+        </div>
+
+
+
+
+        <div id="resources" class="step" data-x="-2300" data-y="-1000" data-rotate="90">
+            <p class="text-1">Resources</p>
+            <p class="text-2">Vimtutor :help</p>
+            <p class="text-3"><a href="http://haridas.in/vim-as-your-ide.html">Vim as your IDE - Haridas</a></p>
+            <p class="text-4"><a href="https://github.com/satyajitranjeev/DotVim2">My DotVim2 GitHub</a></p>
+            <p class="text-5"><a href="http://learnvimscriptthehardway.stevelosh.com/">Learn Vimscript the Hard Way</a></p>
+            <p class="text-6"></p>
+        </div>
+
+
+
+
+        <div id="contact" class="step" data-x="-2700" data-y="-1000" data-rotate="90">
+            <p class="text-1">Contact</p>
+            <p class="text-2"><a href="http://satyajit.ranjeev.in">satyajit.ranjeev.in</a></p>
+            <p class="text-3">satyajit.ranjeev@gmail.com</p>
+        </div>
+
+
+
+        <div id="questions" class="vertical step" data-x="0" data-y="0" data-scale="6" data-rotate-x="90" data-rotate-y="90">
+            <p>Questions</p>
+        </div>
+
+
+
+    </div>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+</body>
