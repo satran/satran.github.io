@@ -1,17 +1,17 @@
-body{ 
+body{
     color: #444;
-    background: #ffffff; 
-    font-size: 100%; 
-    font-family: Lustria, Palatino, Georgia,'Times New Roman',serif; 
+    background: #ffffff;
+    font-size: 115%;
+    font-family: Lustria, Palatino, Georgia,'Times New Roman',serif;
     line-height: 2;
     margin: 0;
     padding: 0;
 }
 ul, ol{
     margin: 0;
-    padding: 0;
+/*    padding: 0;*/
 }
-h1, h2, h3, h4, h5, h6 { 
+h1, h2, h3, h4, h5, h6 {
     /*font-family: 'Fredericka the Great', cursive; */
     font-family: 'Ubuntu Condensed', sans-serif;
     color: #cc3333;
@@ -99,10 +99,11 @@ pre code {
 }
 #main .content{
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 800px;
 }
 #main h1{
     text-align: center;
+    border-bottom: 1px solid #000;
 }
 #footer{
     font-size: .7em;
@@ -155,6 +156,7 @@ pre code {
     font-weight: bold;
     margin-bottom: 0;
     padding-bottom: 15px;
+    border-bottom: none;
 }
 #home_page .text{
     margin: 0 auto;
@@ -187,7 +189,6 @@ pre code {
     text-transform: uppercase;
     font-family: 'Ubuntu Condensed', sans-serif;
 }
-
 .post{
     margin-bottom: 50px;
     border-bottom: 1px dashed #ccc;
@@ -200,8 +201,6 @@ pre code {
     text-transform: uppercase;
     margin: 0;
     padding: 0;
-}
-.post .date{
 }
 #related{
     margin: 60px 0 0;
@@ -221,10 +220,15 @@ pre code {
     padding-bottom: 20px;
 }
 #disqus_thread{
-    max-width: 900px;
+    max-width: 800px;
     margin:0 auto;
 }
 .contact img{
     width: 64px;
     display: inline;
+}
+p.articles{
+	text-transform: uppercase;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 120%;
 }
