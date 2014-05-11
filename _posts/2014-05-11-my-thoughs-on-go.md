@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My thoughts on Go - completeness it provides with simplicity.
+title: My thoughts on Go - completeness it provides through simplicity.
 summary: Though the designers keep emphasising that it is quite different, it reminds me of C in many ways.  It is simple and succinct. The whole language specification fits in a single page html - that says something. I felt comfortable learning the language.
 ---
 
