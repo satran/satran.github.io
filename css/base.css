@@ -64,14 +64,11 @@ pre{
 .contact img {
 	width: 48px;
 }
-.content, #disqus_thread, #footer, #menu {
+.container {
 	max-width: 800px;
 	margin:0 auto;
-	padding: 1em;
 }
 #menu {
-	max-width: 800px;
-	margin: 0 auto;
 	margin-bottom: 3em;
 	padding: .5em;
 	text-align: center;
@@ -137,11 +134,9 @@ pre{
 	font-weight: bold;
 	font-size: 5em;
 	text-transform: uppercase;
-	text-shadow: 0px 1px 0px #222, 0px -1px 0px #222;
 	padding: 0px;
 	margin: 0px;
 	line-height: 1;
-	color: #555;
 }
 #related{
 	margin-top: 3em;
