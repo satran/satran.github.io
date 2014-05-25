@@ -13,7 +13,7 @@ The first time someone mentioned Acme, I immediately thought of The Road Runner 
 
 > "Acme," said Penn, and laughed.
 
-> -- [Rob Pike](http://research.swtch.com/acme)
+> [Rob Pike](http://research.swtch.com/acme)
 
 Acme has not gotten the popularity of Emacs or Vim. It is probably because it is counter to what people think an editor is capable of doing. These are a few features that I used to think an editor should be good at:
 
@@ -24,13 +24,13 @@ Acme has not gotten the popularity of Emacs or Vim. It is probably because it is
 - have great syntax highlighting
 
 
-Acme does none of it, though it allows you to **extend with any language of your choice**. It is absolutely minimal. I remember our company's designer almost instantly said it looks ugly. Well that's what I thought at first. But the colour choices in the editor are well thought. The colours are picked using the triad colour scheme of the base background colour. The background causes the least strain to the eye on prolonged usage. Whether it was intentionaly or out of randomness the colours are almost perfect. There is no way to change the colours but by editing the code. 
+Acme does none of it, though it allows you to **extend with any language of your choice**. It is absolutely minimal. I remember our company's designer almost instantly said it looks ugly. Well that's what I thought at first. But the colour choices in the editor are well thought. The colours are picked using the triad colour scheme of the base background colour. The background causes the least strain to the eye on prolonged usage. Whether it was intentionally or out of randomness the colours are almost perfect. There is no way to change the colours but by editing the code. 
 
 The few key bindings it provides are:
 
 - ctrl + f: tries to auto complete a path, something like tab would do in a bash shell.
 - ctrl +w: deletes the previous word
-- esc: selects the last typed characters
+- Esc: selects the last typed characters
 - ctrl + u: deletes to the start of the line
 - ctrl + a: moves the cursor to beginning of the line
 - ctrl + e: moves the cursor to the end of the line
@@ -42,7 +42,7 @@ I have not tested these key-bindings in any other system so I'm not sure if it i
 
 It has no syntax highlighting nor does it have line numbers. It uses the mouse extensively. The fonts almost look terrible. You just **cannot** move between lines using the up and down arrow keys. So one might ask why did I leave the comfort of Vim to use this for the past one month? Because it could do, as Rob Pike put it, "Umm... Everything."
 
-Using Acme as my primary editor for the past month has taught me that simplicity and minimalism is everything. The jarring colours of my colourscheme does not come in the way while I program. I do not spend time trying to change the green colour for keywords. It has no configuration files, so one less file to maintain. I do not spend hours on the :help page trying to figure out the right key combination to do x or y. I feel comfortable that I do not need to leave the editor to execute a command in the shell. Everything is right here in my editor. In fact it feels like an IDE built completely out of UNIX.
+Using Acme as my primary editor for the past month has taught me that simplicity and minimalism is everything. The jarring colours of my colour scheme does not come in the way while I program. I do not spend time trying to change the green colour for keywords. It has no configuration files, so one less file to maintain. I do not spend hours on the :help page trying to figure out the right key combination to do x or y. I feel comfortable that I do not need to leave the editor to execute a command in the shell. Everything is right here in my editor. In fact it feels like an IDE built completely out of UNIX.
 
 **It uses the mouse, and it is a good thing.**
 
@@ -60,7 +60,7 @@ There are a few tricks I learnt over the past month which might be useful to a f
 
 - To find which line number you are on execute Edit =
 - Right clicking on :34 takes you to the 34th line of the buffer
-- Middle+Left button on a command exectues the previously selected text as an argument. I keep a separate buffer with commands that I use in several buffers. One such is gofmt. Selecting `,|gofmt $%` and executing Edit formats my go code. 
+- Middle+Left button on a command executes the previously selected text as an argument. I keep a separate buffer with commands that I use in several buffers. One such is gofmt. Selecting `,|gofmt $%` and executing Edit formats my go code. 
 - :/foobar - searches backwards
 - Executing Edit with arguments: 
     - `,` selects the whole file
@@ -69,6 +69,7 @@ There are a few tricks I learnt over the past month which might be useful to a f
     - `s/regex/text/[g]`  replaces regex with text 
     - `<range>m a1` moves range to after a1
     - `<range>t a1`  copies range to after a1
+    
 - Acme takes a few arguments:
     - `-a` does auto indent. Export variable `tabstop` to specify the width of a tab.
     - `-f` specifies the font. It can use the OS's fonts. To use Inconsolata you can pass -f /mnt/font/Inconsolata/12a/font. The a in 12a sets antialias.
