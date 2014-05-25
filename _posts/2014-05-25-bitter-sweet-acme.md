@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bitter Sweet Acme 
-summary:
+summary: The first time someone mentioned Acme, I immediately thought of The Road Runner show. Anvils, bombs, rockets all made by Acme. If I remember well anything Wile E. Coyote bought,it was from the Acme Corporation. Acme meaning the peak, zenith or prime. So when Rob Pike had to name his editor, which did "everything" Acme was the perfect choice.
 ---
 
 The first time someone mentioned Acme, I immediately thought of The Road Runner show. Anvils, bombs, rockets all made by Acme. If I remember well anything Wile E. Coyote bought,it was from the Acme Corporation. Acme meaning the peak, zenith or prime. So when Rob Pike had to name his editor, which did "everything" Acme was the perfect choice.
