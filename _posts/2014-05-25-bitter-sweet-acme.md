@@ -64,16 +64,16 @@ There are a few tricks I learnt over the past month which might be useful to a f
 - Middle+Left button on a command exectues the previously selected text as an argument. I keep a separate buffer with commands that I use in several buffers. One such is gofmt. Selecting `,|gofmt $%` and executing Edit formats my go code. 
 - :/foobar - searches backwards
 - Executing Edit with arguments: 
-	- `,` selects the whole file
-	- `#0` takes you to the top of the file
-	- `<range>d`  deletes text in range
-	- `s/regex/text/[g]`  replaces regex with text 
-	- `<range>m a1` moves range to after a1
-	- `<range>t a1`  copies range to after a1
+    - `,` selects the whole file
+    - `#0` takes you to the top of the file
+    - `<range>d`  deletes text in range
+    - `s/regex/text/[g]`  replaces regex with text 
+    - `<range>m a1` moves range to after a1
+    - `<range>t a1`  copies range to after a1
 - Acme takes a few arguments:
-	- `-a` does auto indent. Export variable `tabstop` to specify the width of a tab.
-	- `-f` specifies the font. It can use the OS's fonts. To use Inconsolata you can pass -f /mnt/font/Inconsolata/12a/font. The a in 12a sets antialias.
-	- with `-F` you can specify another fixed font. You can execute Font to switch between fonts
+    - `-a` does auto indent. Export variable `tabstop` to specify the width of a tab.
+    - `-f` specifies the font. It can use the OS's fonts. To use Inconsolata you can pass -f /mnt/font/Inconsolata/12a/font. The a in 12a sets antialias.
+    - with `-F` you can specify another fixed font. You can execute Font to switch between fonts
 
 - You can pass a file name as an argument to Dump. Use it to store various sessions. 
 
