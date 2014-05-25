@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Django Managers
-summary: I have been working with Django for more than a two years now and the more I learn about it the more it gets better. I do have a few hiccups but there are solutions for them, mostly. Any ways one thing I find very interesting is the model’s manager. Objects  of a model, or a few objects, can be retrieved using these methods.
+summary: I have been working with Django for more than a two years now and the more I learn about it the more it gets better. I do have a few hiccups but there are solutions for them, mostly. Any ways one thing I find very interesting is the model's manager. Objects  of a model, or a few objects, can be retrieved using these methods.
 ---
 
 I have been working with Django for more than a two years now and the more I learn about it the more it gets better. I do have a few hiccups but there are solutions for them, mostly. Any ways one thing I find very interesting is the model’s manager. Objects  of a model, or a few objects, can be retrieved using these methods: 
