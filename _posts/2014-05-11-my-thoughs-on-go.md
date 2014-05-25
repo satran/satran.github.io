@@ -18,7 +18,6 @@ The standard library is quite sufficient. With the focus on web technologies in 
 
 There are many other features that I feel are worth looking at:
 
-
 - error handling (yes I do like the error handling. I just can't count the numerous time I have seen `raise` being called in Python code without any custom exception, or even built-in exceptions. It is better to handle exceptions right where the call is made.)
 - interface declaration - no explicit declaration that my custom type is an interface, define the methods and it satisfies the interface.
 - channels (I am not talking too much about concurrency and channels as many have done enough justice about them.)
