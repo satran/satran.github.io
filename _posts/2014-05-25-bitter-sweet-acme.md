@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Bitter Sweet Acme 
+title: Bitter Sweet Acme
+summary: The first time someone mentioned Acme, I immediately thought of The Road Runner show. Anvils, bombs, rockets all made by Acme. If I remember well anything Wile E. Coyote bought,it was from the Acme Corporation. Acme meaning the peak, zenith or prime. So when Rob Pike had to name his editor, which did "everything" Acme was the perfect choice.
 ---
 
 The first time someone mentioned Acme, I immediately thought of The Road Runner show. Anvils, bombs, rockets all made by Acme. If I remember well anything Wile E. Coyote bought,it was from the Acme Corporation. Acme meaning the peak, zenith or prime. So when Rob Pike had to name his editor, which did "everything" Acme was the perfect choice.
+
 
 > When I started working on Acme, I had a pretty strong idea about what it would be and what it would look like, but I didn't have a name yet. As I usually did at the time, on Friday night I went to Times Square for Movie Night. Penn Jillette was there, and I told him I needed a name for my new project.
 
@@ -61,7 +63,7 @@ There are a few tricks I learnt over the past month which might be useful to a f
 - To find which line number you are on execute Edit =
 - Right clicking on :34 takes you to the 34th line of the buffer
 - Middle+Left button on a command executes the previously selected text as an argument. I keep a separate buffer with commands that I use in several buffers. One such is gofmt. Selecting `,|gofmt $%` and executing Edit formats my go code. 
-- :/foobar - searches backwards
+- `:/foobar` - searches backwards
 - Executing Edit with arguments: 
     - `,` selects the whole file
     - `#0` takes you to the top of the file
