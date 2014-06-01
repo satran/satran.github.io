@@ -5,6 +5,12 @@ layout: default
 <h5 class="date">- {{ page.date | date_to_string }} -</h5>
 {{ content }}
 
+<div id="social">
+    <a href="https://twitter.com/share?url=http://satyajit.ranjeev.in/{{ page.url }}&text={{ page.title }}">Tweet this</a>
+ <a href="https://news.ycombinator.com/submitlink?u=http://satyajit.ranjeev.in/{{ page.url }}&t={{ page.title }}">Post to Hacker News</a>
+    <a href="http://www.reddit.com/submit?url=http://satyajit.ranjeev.in/{{ page.url }}&title={{ page.title }}">Reddit this</a>
+</div>
+
 <div id="related">
     <h2 class="title">Related Posts</h2>
     <ul class="posts">
@@ -14,34 +20,6 @@ layout: default
     </ul>
 </div>
 
-<div id="social">
-    <div><a href="https://twitter.com/share" class="twitter-share-button" data-via="satyajitranjeev">Tweet</a></div>
-    <div><g:plusone size="medium"></g:plusone></div>
-    <div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
-</div>
-
-<!-- Google +1 -->
-<script type="text/javascript">
-    (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    })();
-</script>
-
-<!-- Facebook like-->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-
-<!-- Twitter share -->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
