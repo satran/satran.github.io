@@ -28,6 +28,12 @@ pre{
 .content{
 	padding: 1em;
 }
+.content img{
+	width: 100%;
+}
+.content iframe{
+	width: 100%;
+}
 .title {
 	font-size: 218%;
 	font-weight: normal;
