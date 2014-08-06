@@ -32,3 +32,5 @@ EDI does very little now. But here are a few things that will be added in the ne
 EDI will always strive to be minimal and lean on the tools that the OS provides or the ones created by its users. I believe Editors and IDEs should always be open sourced. Thus you can find its source here [https://github.com/satran/edi](https://github.com/satran/edi).
 
 I would love to hear your feedback. Comments are disabled on the site now so start a discussion on Hacker News or Reddit.
+
+I do have pre-built versions for [Linux x86-64](/data/edi-linux-64) and [Mac OS](/data/edi-mac).
