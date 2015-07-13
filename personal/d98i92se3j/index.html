@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Renewal</title>
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1.5;
+            font-size: 1.5em;
+        }
+        body{
+            font-family: "Indie Flower", cursive;
+        }
+        .page{
+            text-align: center;
+            display: inline-block;
+            display: none;
+            padding: 1em;
+        }
+        img{
+            max-width: 90%;
+        }
+        .title{
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        .text{
+            margin: .5em;
+        }
+        
+        button{
+            font-size: 2em;
+            border-radius: .2em;
+            border: none;
+            background: #efefef;
+            color: #000;
+            margin: .5em;
+            font-family: 'Indie Flower', cursive;
+        }
+        button.no{
+            background: red;
+            color: #fff;
+        }
+        button.yes{
+            background: green;
+            color: #fff;
+        }
+    </style>
+  </head>
+
+  <div id="page1" class="page">
+    <div class="content">
+      <h1 class="title">Renew your marriage today!</h1>
+      <p class="text">Hello Krishna! The day has come.</p>
+      <p class="text">Do you wish to renew?</p>
+      <p>
+	<button class="no">No</button>
+	<button class="yes">Yes</button>
+      </p>
+    </div>
+    <div class="content">
+      <img src="images/minion1.png" />
+    </div>
+  </div>
+
+
+  <div id="page1-no" class="page">
+    <div class="content">
+      <h1 class="title">Agggggggggggggggg grrrrrrrrrrr!!!</h1>
+      <p class="text">But what to do you JUST CANT!</p>
+      <p>
+	<button class="yes">Renew it</button>
+      </p>
+    </div>
+    <div class="content">
+      <img src="images/minion-surprised.png" />
+    </div>
+  </div> 
+
+  <div id="page2" class="page">
+    <div class="content">
+      <h1 class="title">Shopping Cart!</h1>
+      <p class="text">Let me take a note of your renewal.</p>
+      <p class="text">How many years?</p>
+      <p>
+	<button class="other">1</button>
+	<button class="other">2</button>
+	<button class="yes">Life time</button>
+      </p>
+    </div>
+    <div class="content">
+      <img src="images/minion-shopping.png" />
+    </div>
+  </div>
+
+  
+  <div id="page2-other" class="page">
+    <div class="content">
+      <h1 class="title">Sorry offer Expired</h1>
+      <p>
+	<button class="yes">Go back!</button>
+      </p>
+    </div>
+    <div class="content">
+      <img src="images/minion-surprised.png" />
+    </div>
+  </div> 
+
+  <div id="page3" class="page">
+    <div class="content">
+      <h1 class="title">Checkout!</h1>
+      <p class="text">How would you like to pay?</p>
+      <p>
+	<button class="other">Cash</button>
+	<button class="other">Credit Card</button>
+	<button class="yes">Kisses</button>
+      </p>
+      <p>*Note: No refunds</p>
+    </div>
+    <div class="content">
+      <img src="images/minion-serious.png" />
+    </div>
+  </div>
+
+  <div id="page3-other" class="page">
+    <div class="content">
+      <h1 class="title">Payment not supported!</h1>
+      <p>
+	<button class="yes">Go back!</button>
+      </p>
+    </div>
+    <div class="content">
+      <img src="images/minion-surprised.png" />
+    </div>
+  </div> 
+  
+
+  <div id="page4" class="page">
+    <div class="content">
+      <h1 class="title">Congrats! You have renewed for a lifetime of happiness with me!</h1>
+    </div>
+    <div class="content">
+      <img src="images/minion-heart.jpg" />
+    </div>
+    <h1 class="title">Happy Anniversary</h1>
+    <h1 class="text">love Chetan</h1>
+  </div>
+  
+  <script type="text/template" id="node-list-tmpl">
+    <div class="node-list"></div>
+    <textarea class="entry node" placeholder="add your thoughts..."></textarea>
+  </script>
+  
+
+  <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+  <script>
+        $("#page1 .no").click(function(){
+            $(".page").hide();
+            $("#page1-no").show();
+        });
+        
+        $("#page1 .yes").click(function(){
+            $(".page").hide();
+            $("#page2").show();
+        });
+        
+        $("#page1-no .yes").click(function(){
+            $(".page").hide();
+            $("#page2").show();
+        });
+        
+        $("#page2 .other").click(function(){
+            $(".page").hide();
+            $("#page2-other").show();
+        }); 
+        
+        $("#page2-other .yes").click(function(){
+            $(".page").hide();
+            $("#page2").show();
+        }); 
+        
+        $("#page2 .yes").click(function(){
+            $(".page").hide();
+            $("#page3").show();
+        });
+        
+        $("#page3 .other").click(function(){
+            $(".page").hide();
+            $("#page3-other").show();
+        }); 
+        
+        $("#page3-other .yes").click(function(){
+            $(".page").hide();
+            $("#page3").show();
+        }); 
+        
+        $("#page3 .yes").click(function(){
+            $(".page").hide();
+            $("#page4").show();
+        });
+        
+        $(document).ready(function(){
+            
+            $("#page1").show();
+        })
+  </script>
+</html>
+
