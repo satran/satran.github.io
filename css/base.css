@@ -2,7 +2,7 @@ body{
 	color: #000;
 	background: #ffffff;
 	font-size: 100%;
-	font-family: sans-serif;
+	font-family: 'Merriweather', serif;
 	line-height: 1.7;
 	margin: 0;
 	padding: 0;
@@ -69,7 +69,8 @@ pre{
 	width: 48px;
 }
 .container {
-	max-width: 800px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 #menu {
 	margin-bottom: 3em;
