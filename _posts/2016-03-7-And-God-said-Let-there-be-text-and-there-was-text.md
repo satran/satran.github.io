@@ -23,7 +23,10 @@ Here are a few plans that we have in mind:
 Spread the word, give it a shot and let me know what you think. Register at [https://saola.in/#register](https://saola.in/#register).
 
 [1] Emacs for me and vi for the evil ones ;) 
+
 [2] Sadly systemd is taking it away from me
+
 [3] Currenly JavaScript, as much as I complain about it, it was something that was easy to integrate
+
 [4] UTF-8
  
