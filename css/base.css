@@ -99,12 +99,11 @@ pre{
 	margin: 30px 0;
 	border-bottom: 1px dashed #ccc;
 	padding-bottom: 20px;
-	text-align: center;
+	text-align: right;
 }
 #social a{
     	display: inline-block;
-	padding: .5em;
-	border: .1em solid #000;
+	border-bottom: .1em solid #000;
 	margin: .3em;
 	color: #000;
 	text-decoration: none;
@@ -119,38 +118,6 @@ pre{
 }
 #footer a{
 	text-decoration: none;
-}
-#home_page {
-	text-align: center;
-}
-#home_page ul{
-	padding: 0;
-	margin: 0;
-}
-#home_page li{
-	list-style: none;
-}
-#home_page a{
-	text-decoration: none;
-}
-#home_page .title{
-	padding-bottom: 0;
-	margin-bottom: .2em;
-	margin-top: 2em;
-	font-size: 1.6em;
-}
-#home_page .title a{
-        font-family: sans-serif;
-	text-transform: uppercase;
-}
-#me .name {
-        font-family: sans-serif;
-	font-weight: bold;
-	font-size: 3em;
-	text-transform: uppercase;
-	padding: 0px;
-	margin: 0px;
-	line-height: 1;
 }
 #related{
 	margin-top: 3em;
