@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="book">
+  <h1 class="title">{{ page.title }}</h1>
+  <h3 class="author">- Author: {{ page.author }} -</h3>
+  {{ content }}
+  <div class="meta">
+    <p>Started: {{ page.start | date_to_string }}</p>
+    <p>Finished: {{ page.start | date_to_string }}</p>
+  </div>
+</div>

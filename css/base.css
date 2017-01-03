@@ -132,3 +132,13 @@ pre{
 #related a{
 	text-decoration: none;
 }
+.book .author {
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+}
+.book .meta>p {
+    text-align: right;
+    font-size: .8em;
+    margin: .3em;
+}

@@ -1,4 +1,7 @@
 name: Satyajit Ranjeev's Blog
 description: My rants on Technology.
-url: http://satyajit.ranjeev.in
+url: http://satran.in
 markdown: kramdown
+collections:
+  books:
+    output: true
