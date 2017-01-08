@@ -30,16 +30,20 @@ pre{
 	width: 100%;
 }
 .title {
-	font-size: 218%;
+	font-size: 200%;
 	font-weight: normal;
 	text-align: center;
 	margin: 0;
 	line-height: 1.5;
-	text-transform: uppercase;
-	font-family: sans-serif;
+	text-transform: capitalize;
 }
 .title a{
 	text-decoration: none;
+}
+h1.title {
+	border-bottom: 1px solid #efefef;
+	padding-bottom: .25em;
+	margin-bottom: .25em;
 }
 .date {
 	text-align: center;
@@ -73,13 +77,12 @@ pre{
     margin: 0 auto;
 }
 #menu {
-	margin-bottom: 3em;
+	margin: 0;
 	padding: .5em;
 	text-align: center;
-	border-top: 10px solid black;
-	border-bottom: 1px solid black;
 	text-transform: uppercase;
 	font-family: sans-serif;
+	font-size: 1.25em;
 }
 #menu a{
 	color: #000000;
@@ -111,8 +114,6 @@ pre{
 #footer{
 	margin-top: 10em;
 	border-top: 1px solid #000;
-	border-bottom: 10px solid black;
-	padding-top: 1em;
 	font-size: .7em;
 	text-align: center;
 }
@@ -124,7 +125,8 @@ pre{
 }
 #related .title{
 	text-align: left;
-	font-size: 1.6em;
+	font-size: 1.3em;
+	border-bottom: none;
 }
 #related li{
 	list-style: none;
