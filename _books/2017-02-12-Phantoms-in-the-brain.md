@@ -1,6 +1,6 @@
 ---
 layout: book
-title: Phantoms in the Brain: Probing the Mysteries of the Human Mind
+title: Phantoms in the Brain - Probing the Mysteries of the Human Mind
 author: V.S. Ramachandran
 start: 28/01/2017
 end: 12/02/2017
