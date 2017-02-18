@@ -6,6 +6,11 @@ title: Resume
 
 ##### http://satran.in | s@ranjeev.in | +4917682306879
 
+## Talks
+
+Complexities of Micro Services and Event Sourcing at MicroXchg 2017 | [https://www.youtube.com/watch?v=yVUiA6gDhKU](https://www.youtube.com/watch?v=yVUiA6gDhKU) 
+
+
 ## Work
 
 ### Senior Software Developer 
@@ -76,6 +81,7 @@ Technologies: RedHat Enterprise Linux Perl Xen
 
 Master in Statistics | Madras Christian College | _2004 - 2006_
 Bachelors in Statistics | Madras Christian College | _2001 - 2004_
+
 
 
 ## Projects
