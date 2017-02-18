@@ -4,7 +4,8 @@ title: Satyajit Ranjeev | Books Read
 ---
 
 <h1 class="title">Books Read</h1>
-{% for book in site.books %}
+{% assign sortedbooks = (site.books | sort: 'date') | reverse %}
+{% for book in sortedbooks %}
     <div class="articles">
         <p class="title"><a href="{{ book.url }}">{{ book.title }}</a></p>
         <p class="date"><a href="{{ book.url }}">{{ book.date | date_to_long_string }}</a></p>
