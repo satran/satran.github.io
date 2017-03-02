@@ -15,10 +15,11 @@ In 2015 I joined OptioPay to build a system that transfers money. We had a clean
 
 One of our early challenges was service decomposition. Martin Fowler describes in his article[[2](#2)] to use bounded context. He summarizes what Eric Evans says in his book, the Domain Driven Design[[3](#3)]. This is the right approach to decompose services. The challenge though is when you are starting a product the domain is not very clear. You learn the natural boundaries by time either through planned experiments or acquired experience.
 
+EDIT: We fucked up this one, it is obvious in retrospect this was a stupid idea.
+
 We got it wrong by choosing to decompose services based on entities. If I were creating a system for a blog engine with entities Article, Comment, Tag and User for each I would have a service. This let us to 73 services of which 41 are API servers. Remember we were a team of six. Decomposing services incorrectly led us to have dependencies between each other. The below image shows dependencies between services that run on production.
 
 ![Service Dependencies](/images/others/dependencies.png "Service Dependencies")
-
 
 The problem with dependencies is the tight coupling between them. Adding new functionality affects multiple services. This causes duplication of work because you tend to write similar functionality in dependent services. 
 
