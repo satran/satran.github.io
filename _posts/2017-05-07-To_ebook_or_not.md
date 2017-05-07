@@ -4,11 +4,11 @@ title: To e-book or not
 summary:
 ---
 
-I started an experiment of reading a physical book rather than an e-book this month. I had picked up a physical copy of _The Design of Everyday Things_ by Don Norman. This seemed to be the perfect book to apply the experiment on. 
+I started an experiment of reading a physical book rather than an e-book this month. I had picked up a physical copy of The Design of Everyday Things<sup>[1](#1-amazon-link-the-design-of-everyday-things-by-don-norman)</sup> by Don Norman and I thought it would be a good book to experiment with. I have been a big fan of the Kindles and have convinced quite a few to buy them as well.
 
 Why the experiment, you might ask. My dad cherishes his book collection. He even has a few books that are centuries old. Observing his collection one can figure the different phases of life he went through. There are classics, comics, references, and even religious books. Looking at his collection I realised that those were his books. He owned them. He could choose to lend a few books or sell those he thought were not necessary. 
 
-I compared it to my collection. I left most of my physical books with my dad before I left India. My virtual collection has been growing over the years. The only physical books I have now are technical ones, spare a few that were not available in the Kindle store. Could I easily lend my books? Could I sell them? Were they actually mine? I remembered reading an article on how Amazon erased books from users library<sup>[1](#1--amazon-erases-orwell-books-from-kindle)</sup>. This brought me to experiment what would I miss if I were to switch back to reading physical books.
+I compared it to my collection. I left most of my physical books with my dad before I left India. My virtual collection has been growing over the years. The only physical books I have now are technical ones, spare a few that were not available in the Kindle store. Could I easily lend my books? Could I sell them? Were they actually mine? I remembered reading an article on how Amazon erased books from users library<sup>[2](#2--amazon-erases-orwell-books-from-kindle)</sup>. This brought me to experiment what would I miss if I were to switch back to reading physical books.
 
 I own the Kindle Oasis and the ergonomics of holding it comes second to none. Physical books, on the other hand, are very relative. It is hard to compare all physical books as a whole. A hard bound has the worst ergonomics usually. Paperbacks are relatively easy to hold. Yet they are not as comfortable compared to a kindle. It fits snugly into my coat pocket and I don't have to think about carrying bag.
 
@@ -28,4 +28,6 @@ After a long day of staring at the monitor, it is refreshing to have a look at s
 
 Reading a physical book again has been very good. I don't think I will be rushing to swap all my e-books to physical ones. The experiment has taught me that I still enjoy reading physical books and there is nothing substantial that I will miss from e-books. In the future, someone may create a device that overcomes many of the limitations. In the meanwhile, I will continue to buy more physical books and enjoy the craftsmanship that goes into each one of them assured that it belongs to me.
 
-##### 1  [Amazon Erases Orwell Books From Kindle](http://www.nytimes.com/2009/07/18/technology/companies/18amazon.html?_r=0)
+##### 1 [Amazon link: The Design of Everyday Things by Don Norman](http://amzn.to/2pa9SfX)
+
+##### 2  [Amazon Erases Orwell Books From Kindle](http://www.nytimes.com/2009/07/18/technology/companies/18amazon.html?_r=0)
