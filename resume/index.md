@@ -13,13 +13,14 @@ Complexities of Micro Services and Event Sourcing at MicroXchg 2017 | [https://w
 
 ## Work
 
-### Senior Software Developer 
+### Senior Software Engineer
 
 #### OptioPay | Berlin, Germany | 2015 - Current
 
 Building a payment gateway using micro-service architecture using Go and Kafka
 
-- Migrating CoreOS and Fleet instances to Kubernetes (Current)
+- Help improve conversion of our product using Statistical methods
+- Migrating CoreOS and Fleet instances to Kubernetes
 - Architect micro services based on event sourcing
 - Worked on accounting/booking system
 - Developed a HTTP Proxy through Kafka
