@@ -87,7 +87,6 @@ Bachelors in Statistics | Madras Christian College | _2001 - 2004_
 
 ## Projects
 
-Saola (personal project) | [https://saola.in/about](https://saola.in/about)
 kafka (Go library) | [https://github.com/optiopay/kafka](https://github.com/optiopay/kafka)
 sqlgen (Go postgres generator) | [https://github.com/optiopay/sqlgen](https://github.com/optiopay/sqlgen)
 goimp (Go dependency) | [https://github.com/satran/goimp](https://github.com/satran/goimp)
