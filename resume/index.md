@@ -19,8 +19,9 @@ Complexities of Micro Services and Event Sourcing at MicroXchg 2017 | [https://w
 
 Building a payment gateway using micro-service architecture using Go and Kafka
 
+- Currently building a Recommender system using Machine Learning
 - Help improve conversion of our product using Statistical methods
-- Migrating CoreOS and Fleet instances to Kubernetes
+- Cluster management using Docker, CoreOS and fleet
 - Architect micro services based on event sourcing
 - Worked on accounting/booking system
 - Developed a HTTP Proxy through Kafka
@@ -46,7 +47,7 @@ Technologies: Go PostgreSQL
 
 Led a team of 12 to build an Intelligent Character Recognition System
 
-- Wrote a library in C (https://bitbucket.org/ranjeev/bktree) to speed up dictionary correction 
+- Improve prediction of words using various Statistical methods, mainly Logistic Regression and Markov processes.
 - Built user interface for manual correction of incorrect recognition using JavaScript, Backbone
 - Architect a distributed flow based processing using Python and RabbitMQ
 - Introduced Scrum to the team
