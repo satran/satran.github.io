@@ -1,7 +1,8 @@
 body {
     font-family: sans-serif;
     line-height: 1.5;
-    max-width: 800px
+    max-width: 800px;
+    margin: 0 auto;
 }
 a {
     text-decoration: none;
