@@ -4,7 +4,7 @@ title: Resume
 ---
 # Satyajit Ranjeev
 
-##### http://satran.in | s@ranjeev.in | +4917682306879
+##### http://satran.in | s@ranjeev.in
 
 ## Talks
 
