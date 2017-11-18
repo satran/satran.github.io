@@ -8,7 +8,8 @@ title: Resume
 
 ## Talks
 
-Complexities of Micro Services and Event Sourcing at MicroXchg 2017 | [https://www.youtube.com/watch?v=yVUiA6gDhKU](https://www.youtube.com/watch?v=yVUiA6gDhKU) 
+Complexities of Micro Services and Event Sourcing at MicroXchg 2017 |
+[https://www.infoq.com/presentations/microservices-event-sourcing](https://www.infoq.com/presentations/microservices-event-sourcing)
 
 
 ## Work
