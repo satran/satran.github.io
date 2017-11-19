@@ -22,7 +22,7 @@ func follow(file io.Reader) error {
 		if err != nil && err != io.EOF{
 			return err
 		}
-		fmt.Printf(string(by))
+		fmt.Print(string(by))
 		if err == io.EOF {
 			time.Sleep(time.Second)
 		}
@@ -46,7 +46,7 @@ func follow(filename string) error {
 		if err != nil && err != io.EOF {
 			return err
 		}
-		fmt.Printf(string(by))
+		fmt.Print(string(by))
 		if err != io.EOF {
 			continue
 		}
@@ -90,7 +90,7 @@ func follow(filename string) error {
 		if err != nil && err != io.EOF {
 			return err
 		}
-		fmt.Printf(string(by))
+		fmt.Print(string(by))
 		if err != io.EOF {
 			continue
 		}
