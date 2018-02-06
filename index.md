@@ -2,7 +2,7 @@
 layout: default
 title: Satyajit Ranjeev
 ---
-Hi! I am **Satyajit Ranjeev**. I am a computer programmer who loves to solve problems. I currently work at [RiseML](https://riseml.com).
+Hi! I am **Satyajit Ranjeev**. I am a computer programmer who loves to solve problems. I currently work at [solarisBank](https://solarisbank.de) as a staff engineer.
 
 ### Articles
 
