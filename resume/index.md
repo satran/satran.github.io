@@ -14,9 +14,31 @@ Complexities of Micro Services and Event Sourcing at MicroXchg 2017 |
 
 ## Work
 
+### Engineering Manager
+
+#### SolarisBank | Berlin, Germany | 2019 - CURRENT
+
+Leading teams working on the Core Banking system
+- Building an Event Sourced system for transactions
+
+Technologies: Go PostgreSQL AWS K8s
+
+### Staff Engineer
+
+#### SolarisBank | Berlin, Germany | 2018 - 2019
+
+Leading the team that bridges the infrastructure and delivery teams. 
+
+- Architected and built the Authentication and Authorization services
+- Released email service ahead of schedule by deploying in small changes
+- Introduced Pull Request based interview process to evaluate technical knowledge 
+- Introduced RFC pattern to bring about company wide architectural changes
+
+Technologies: OAuth2 IAM Go MySQL
+
 ### Senior Software Engineer
 
-#### OptioPay | Berlin, Germany | 2015 - Current
+#### OptioPay | Berlin, Germany | 2015 - 2017
 
 Building a payment gateway using micro-service architecture using Go and Kafka
 
