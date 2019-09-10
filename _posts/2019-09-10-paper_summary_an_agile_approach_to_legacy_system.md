@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An Agile Approach to a Legacy System
+title: Paper Summary: An Agile Approach to a Legacy System
 summary: An interesting read on how to approach legacy systems.
 ---
 
@@ -30,4 +30,4 @@ I would recommend reading it even if you don't have to rewrite legacy systems. A
 
 
 ---
-1. http://cdn.pols.co.uk/papers/agile-approach-to-legacy-systems.pdf
+1. [http://cdn.pols.co.uk/papers/agile-approach-to-legacy-systems.pdf](http://cdn.pols.co.uk/papers/agile-approach-to-legacy-systems.pdf)
