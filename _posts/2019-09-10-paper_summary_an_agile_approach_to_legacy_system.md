@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paper Summary: An Agile Approach to a Legacy System
+title: Paper Summary - An Agile Approach to a Legacy System
 summary: An interesting read on how to approach legacy systems.
 ---
 
