@@ -1,4 +1,8 @@
-# An Agile Approach to a Legacy System
+---
+layout: post
+title: An Agile Approach to a Legacy System
+summary: An interesting read on how to approach legacy systems.
+---
 
 I recently read an interesting paper, "An Agile Approach to a Legacy System"[1], on how to migrate legacy systems. One statement resonated with me:
 > The drive for the original rewrite came from development management and developers not business and users.
